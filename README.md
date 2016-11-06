@@ -20,8 +20,10 @@ Different informations for each municipality:
 
 ## Feasibility and Risks
 There are two main difficulties:
-1. Aquiring good data. The difficulty here is that there are about 2,500 municipalities and we have to scrape/download the data from different platforms that may not represent the data in the same way. We expect to spend a lot of time on this particular point.
-2. The visualisation should be easy to use and informative at the same time. This is especially hard since we want to be able to add any data concerning the municipalities. For example it should be possible to add the number of Mc Donalds for each municipality and filter for those with more than 5.
+
+  1. Aquiring good data. The difficulty here is that there are about 2,500 municipalities and we have to scrape/download the data from different platforms that may not represent the data in the same way. We expect to spend a lot of time on this particular point.
+
+  2. The visualisation should be easy to use and informative at the same time. This is especially hard since we want to be able to add any data concerning the municipalities, from the number of inhabitants to the number of Mc Donalds.
 
 Other smaller problems are:
 - making the visualisation fast enough (the numbers must be recalculated everytime the user changes something)
