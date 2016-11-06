@@ -1,15 +1,12 @@
 # Votation-Visualisation
 
 ## Abstract
-What is the impact of municipalities with more than 50% foreigners on the results of different referendums in switzerland?
-We want to build a tool that visualizes the results of different referendums for each municipality and that allows the user to remove municipalities with certain attributes to see the impact they have on the outcome of the referendum.
+What is the impact of municipalities with more than 50% foreigners on the results of different referendums in Switzerland?
+In Switzerland, each civilian older that 18years old can vote several times by year on different referendums. To pass, one referendums must get the majority of the population and also be accepted in the majority of the cantons.
+
+We want to build a tool to visualise the result of a referendums in each municipality. The user will have the ability to remove municipalities with certain attributes to see the impact they have on the outcome of the referendum. He will be able to see the impact of the municipality with more that 10'000 inhabitants or the impact of the one with more men than women ...
 The visualisation should be 'general-purpose'. That means any data that is available for all municipalities can be added and used to filter the municipalities.
 
-- Make a viz that displays the results of the votation for each municipality in switzerland.
-- The viz is interactive and allows the user to remove municipalities by features.
- - example: people over 60 y.o. > 20%
-- we will focus on data from 2010 - 2015 but that can be expanded easily (just find more data).
--
 
 
 ## Data Description
@@ -17,8 +14,8 @@ Votation and referendum results for each municipality since ever: (https://www.b
 
 Different informations for each municipality:
   - Inhabitants, area, economy, politics: http://www.chgemeinden.ch/fr/service/statistiques-des-communes/index.php
-  - Agriculture and animals: https://www.pxweb.bfs.admin.ch/Selection.aspx?px_language=fr&px_db=px-x-0702000000_104&px_tableid=px-x-0702000000_104\px-x-0702000000_104.px&px_type=PX
-  - Other informations ranging from economy over energy to criminality: https://www.pxweb.bfs.admin.ch/Default.aspx?px_language=fr
+  - Different kind of informations about municipalities: inhabitants, area, agriculture, criminality, ...
+   https://www.pxweb.bfs.admin.ch/Default.aspx?px_language=fr
   - maybe wikipedia.
 
 ## Feasibility and Risks
