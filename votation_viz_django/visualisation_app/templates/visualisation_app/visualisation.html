@@ -6,15 +6,19 @@
   <meta name="author" content="Baptiste Raeamy">
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
-  <link rel="stylesheet" href="lib/d3-slider/d3.slider.css" />
+
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'visualisation_app/stylesheet.css' %}" />
+  <link rel="stylesheet" href="{% static 'visualisation_app/d3.slider.css' %}" />
+
 
   </head>
   <body>
     <script src="//d3js.org/d3.v3.min.js"></script>
     <script src="//d3js.org/topojson.v1.min.js"></script>
     <script src="http://d3js.org/queue.v1.min.js"></script>
-    <script src="lib/d3-slider/d3.slider.js"></script>
+    <!--script src="lib/d3-slider/d3.slider.js"></script-->
+    <script src="{% static 'visualisation_app/d3.slider.js' %}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <h2>Slider</h2>
     <span id="sliderText">0</span></h2>

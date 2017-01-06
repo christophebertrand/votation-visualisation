@@ -1,6 +1,9 @@
 
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
+import os
+import json
+
 
 
 def index(request):
@@ -11,7 +14,7 @@ def show_map(request):
     return render(request, 'visualisation_app/visualisation.html', context=arg_dict)
 
 def get_ch_json(request):
-    return JsonResponse(_read_file("data/ch.json"))
+    return JsonResponse(json.loads(_read_file("data/ch.json")), safe=False)
 
 def get_nucleaire_csv(request):
     return HttpResponse(_read_file("data/nucleaire.csv"))
@@ -23,5 +26,6 @@ def get_pop_cantons_csv(request):
     return HttpResponse(_read_file("data/pop_cantons.csv"))
 
 def _read_file(filename):
-    with open(filename, 'r') as f:
-        f.read()
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    with open(dir_path+"/"+filename, 'r') as f:
+        return f.read()
