@@ -1,0 +1,47 @@
+text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  text-anchor: middle;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+.canton-boundaries {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+
+.municipality-boundaries {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .3;
+}
+
+.canton {
+  fill: #bbb;
+}
+
+.lake {
+  fill: blue;
+}
+.lake-boundaries {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .3;
+}
+
+.overlay {
+  fill: none;
+  border: 1px solid #ccc;
+  pointer-events: all;
+}
+
+
+.feature :hover {
+  fill: orange;
+}
