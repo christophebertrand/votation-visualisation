@@ -36,7 +36,7 @@ The visualisation and if required a small report about the project.
 ## Timeplan
 Assuming the deadline is at the end of january:
 - We will start as soon as possible to locate and download the most important data
-- Once we have some insight in the data (especially the features) we start to plan the visualisation. In particular the technologies to use (web-app?) and the design (how to add data, how should it look like etc.)
+- Once we have some insight in the data (especially the features) we start to plan the visualisation. In particular the technologies to use (web-app?) and the design (how to add data, how should it look like etc.) maybe use: https://www.youtube.com/watch?v=ieJ0J-iFJuY
 - Then we implement it. We hope that we can start with this point before the middle of December, since this point probably takes the most time.
 - If we have time, it would be interesting to find some especially important features.
 - And then we go skiing :)
