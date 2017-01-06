@@ -40,3 +40,14 @@ Assuming the deadline is at the end of january:
 - Then we implement it. We hope that we can start with this point before the middle of December, since this point probably takes the most time.
 - If we have time, it would be interesting to find some especially important features.
 - And then we go skiing :)
+
+# Django App
+To run the App on localhost:
+
+- Make sure django is installed (https://docs.djangoproject.com/en/1.10/intro/install/ or ``` pip install django ```)
+- Run the App
+```
+cd votation_viz_django
+python manage.py runserver
+```
+- visit `http://localhost:8000/viz/map`
