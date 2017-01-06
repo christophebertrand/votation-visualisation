@@ -75,7 +75,7 @@
 
     function loadData() {
       queue()
-        .defer(d3.json, "swiss-maps/topo/ch.json")
+        .defer(d3.json, "map/ch.json")
         .defer(d3.csv, "../data/nucleaire.csv", function(d) { dataMap.set(d.id, d.data); })
         .defer(d3.csv, "../data/nucleaireCanton.csv", function(d) { dataCantonMap.set(d.id, d.data); })
 
