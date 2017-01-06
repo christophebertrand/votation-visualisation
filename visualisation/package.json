@@ -1,0 +1,19 @@
+{
+  "name": "votation",
+  "version": "0.0.1",
+  "description": "Visualisation of the votation in Switzerland",
+  "keywords": [
+    "topojson",
+    "geojson",
+    "shapefile"
+  ],
+  "author": {
+    "name": "Baptiste Raemy"
+  },
+  "dependencies": {
+    "http-server":"0.9.0"
+  },
+ "scripts": {
+      "serve": "http-server -p 8008"
+  }
+}
