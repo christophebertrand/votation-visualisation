@@ -1,0 +1,242 @@
+pre_id,pre_name,post_id,post_name,date
+308,Niederried bei Kallnach,304,Kallnach,01.01.2013
+548,Ruppoldsried,310,Rapperswil (BE),01.01.2013
+631,Trimstein,616,Münsingen,01.01.2013
+1003,Escholzmatt,1010,Escholzmatt-Marbach,01.01.2013
+1006,Marbach (LU),1010,Escholzmatt-Marbach,01.01.2013
+1092,Neudorf,1081,Beromünster,01.01.2013
+1096,Pfeffikon,1097,Rickenbach (LU),01.01.2013
+1138,Ohmstal,1143,Schötz,01.01.2013
+2244,Büchslen,2275,Murten,01.01.2013
+2459,Nennigkofen,2464,Lüsslingen-Nennigkofen,01.01.2013
+2454,Lüsslingen,2464,Lüsslingen-Nennigkofen,01.01.2013
+2522,Hersiwil,2535,Drei Höfe,01.01.2013
+2521,Heinrichswil-Winistorf,2535,Drei Höfe,01.01.2013
+2902,Guntmadingen,2932,Beringen,01.01.2013
+3314,Rieden,3341,Gommiswald,01.01.2013
+3331,Ernetschwil,3341,Gommiswald,01.01.2013
+3334,Gommiswald,3341,Gommiswald,01.01.2013
+3332,Eschenbach (SG),3342,Eschenbach (SG),01.01.2013
+3333,Goldingen,3342,Eschenbach (SG),01.01.2013
+3337,St. Gallenkappel,3342,Eschenbach (SG),01.01.2013
+3356,Stein (SG),3360,Nesslau,01.01.2013
+3358,Nesslau-Krummenau,3360,Nesslau,01.01.2013
+3373,Krinau,3379,Wattwil,01.01.2013
+3377,Wattwil,3379,Wattwil,01.01.2013
+3391,Bütschwil,3395,Bütschwil-Ganterschwil,01.01.2013
+3403,Ganterschwil,3395,Bütschwil-Ganterschwil,01.01.2013
+3421,Bronschhofen,3427,Wil (SG),01.01.2013
+3425,Wil (SG),3427,Wil (SG),01.01.2013
+3586,Valendas,3672,Safiental,01.01.2013
+3587,Versam,3672,Safiental,01.01.2013
+3651,Safien,3672,Safiental,01.01.2013
+3652,Tenna,3672,Safiental,01.01.2013
+3592,Cumbel,3618,Lumnezia,01.01.2013
+3594,Degen,3618,Lumnezia,01.01.2013
+3595,Lumbrein,3618,Lumnezia,01.01.2013
+3596,Morissen,3618,Lumnezia,01.01.2013
+3604,Vignogn,3618,Lumnezia,01.01.2013
+3605,Vella,3618,Lumnezia,01.01.2013
+3606,Vrin,3618,Lumnezia,01.01.2013
+3599,Suraua,3618,Lumnezia,01.01.2013
+3751,Ramosch,3764,Valsot,01.01.2013
+3753,Tschlin,3764,Valsot,01.01.2013
+3922,Calfreisen,3921,Arosa,01.01.2013
+3923,Castiel,3921,Arosa,01.01.2013
+3924,Langwies,3921,Arosa,01.01.2013
+3925,Lüen,3921,Arosa,01.01.2013
+3927,Molinis,3921,Arosa,01.01.2013
+3929,Peist,3921,Arosa,01.01.2013
+3931,St. Peter-Pagig,3921,Arosa,01.01.2013
+4119,Unterbözberg,4124,Bözberg,01.01.2013
+4098,Gallenkirch,4124,Bözberg,01.01.2013
+4108,Oberbözberg,4124,Bözberg,01.01.2013
+4103,Linn,4124,Bözberg,01.01.2013
+5682,Peyres-Possens,5693,Montanaire,01.01.2013
+5685,Saint-Cierges,5693,Montanaire,01.01.2013
+5676,Martherenges,5693,Montanaire,01.01.2013
+5679,Neyruz-sur-Moudon,5693,Montanaire,01.01.2013
+5667,Correvon,5693,Montanaire,01.01.2013
+5670,Denezy,5693,Montanaire,01.01.2013
+5664,Chapelle-sur-Moudon,5693,Montanaire,01.01.2013
+5906,Chanéaz,5693,Montanaire,01.01.2013
+5689,Thierrens,5693,Montanaire,01.01.2013
+6001,Birgisch,6007,Naters,01.01.2013
+6006,Mund,6007,Naters,01.01.2013
+6105,Erschmatt,6110,Leuk,01.01.2013
+6114,Turtmann,6119,Turtmann-Unterems,01.01.2013
+6115,Unterems,6119,Turtmann-Unterems,01.01.2013
+6216,Mex (VS),6217,Saint-Maurice,01.01.2013
+6264,Salins,6266,Sion,01.01.2013
+6406,Colombier (NE),6416,Milvignes,01.01.2013
+6401,Auvernier,6416,Milvignes,01.01.2013
+6403,Bôle,6416,Milvignes,01.01.2013
+6486,Villiers,6487,Val-de-Ruz,01.01.2013
+6472,Cernier,6487,Val-de-Ruz,01.01.2013
+6474,Coffrane,6487,Val-de-Ruz,01.01.2013
+6473,Chézard-Saint-Martin,6487,Val-de-Ruz,01.01.2013
+6471,Boudevilliers,6487,Val-de-Ruz,01.01.2013
+6479,Fontaines (NE),6487,Val-de-Ruz,01.01.2013
+6478,Fontainemelon,6487,Val-de-Ruz,01.01.2013
+6477,Fenin-Vilars-Saules,6487,Val-de-Ruz,01.01.2013
+6475,Dombresson,6487,Val-de-Ruz,01.01.2013
+6476,Engollon,6487,Val-de-Ruz,01.01.2013
+6482,Montmollin,6487,Val-de-Ruz,01.01.2013
+6483,Le Pâquier (NE),6487,Val-de-Ruz,01.01.2013
+6480,Les Geneveys-sur-Coffrane,6487,Val-de-Ruz,01.01.2013
+6481,Les Hauts-Geneveys,6487,Val-de-Ruz,01.01.2013
+6484,Savagnier,6487,Val-de-Ruz,01.01.2013
+6701,Bassecourt,6729,Haute-Sorne,01.01.2013
+6707,Courfaivre,6729,Haute-Sorne,01.01.2013
+6714,Glovelier,6729,Haute-Sorne,01.01.2013
+6723,Soulce,6729,Haute-Sorne,01.01.2013
+6725,Undervelier,6729,Haute-Sorne,01.01.2013
+6717,Montsevelier,6730,Val Terbi,01.01.2013
+6726,Vermes,6730,Val Terbi,01.01.2013
+6727,Vicques,6730,Val Terbi,01.01.2013
+6776,Bressaucourt,6790,Fontenais,01.01.2013
+5130,Tegna,5396,Terre di Pedemonte,14.04.2013
+5133,Verscio,5396,Terre di Pedemonte,14.04.2013
+5099,Cavigliano,5396,Terre di Pedemonte,14.04.2013
+5224,Sonvico,5192,Lugano,14.04.2013
+5229,Valcolla,5192,Lugano,14.04.2013
+5173,Certara,5192,Lugano,14.04.2013
+5170,Carona,5192,Lugano,14.04.2013
+5163,Cadro,5192,Lugano,14.04.2013
+5174,Cimadera,5192,Lugano,14.04.2013
+5155,Bogno,5192,Lugano,14.04.2013
+5243,Besazio,5254,Mendrisio,14.04.2013
+5255,Meride,5254,Mendrisio,14.04.2013
+5253,Ligornetto,5254,Mendrisio,14.04.2013
+229,Wiesendangen,298,Wiesendangen,01.01.2014
+212,Bertschikon,298,Wiesendangen,01.01.2014
+440,Plagne,449,Sauge,01.01.2014
+447,Vauffelin,449,Sauge,01.01.2014
+534,Büren zum Hof,538,Fraubrunnen,01.01.2014
+537,Etzelkofen,538,Fraubrunnen,01.01.2014
+539,Grafenried,538,Fraubrunnen,01.01.2014
+542,Limpach,538,Fraubrunnen,01.01.2014
+545,Mülchi,538,Fraubrunnen,01.01.2014
+549,Schalunen,538,Fraubrunnen,01.01.2014
+555,Zauggenried,538,Fraubrunnen,01.01.2014
+547,Münchringen,540,Jegenstorf,01.01.2014
+550,Scheunen,540,Jegenstorf,01.01.2014
+604,Bleiken bei Oberdiessbach,619,Oberdiessbach,01.01.2014
+721,Diesse,726,Plateau de Diesse,01.01.2014
+722,Lamboing,726,Plateau de Diesse,01.01.2014
+725,Prêles,726,Plateau de Diesse,01.01.2014
+764,Niederstocken,770,Stocken-Höfen,01.01.2014
+765,Oberstocken,770,Stocken-Höfen,01.01.2014
+930,Höfen,770,Stocken-Höfen,01.01.2014
+781,Gadmen,784,Innertkirchen,01.01.2014
+871,Kienersrüti,885,Uttigen,01.01.2014
+2126,Cerniat (FR),2163,Val-de-Charmey,01.01.2014
+2127,Charmey,2163,Val-de-Charmey,01.01.2014
+2462,Tscheppach,2465,Buchegg,01.01.2014
+2446,Brügglen,2465,Buchegg,01.01.2014
+2442,Aetingen,2465,Buchegg,01.01.2014
+2441,Aetigkofen,2465,Buchegg,01.01.2014
+2444,Bibern (SO),2465,Buchegg,01.01.2014
+2449,Gossliwil,2465,Buchegg,01.01.2014
+2450,Hessigkofen,2465,Buchegg,01.01.2014
+2458,Mühledorf (SO),2465,Buchegg,01.01.2014
+2452,Küttigkofen,2465,Buchegg,01.01.2014
+2453,Kyburg-Buchegg,2465,Buchegg,01.01.2014
+3571,Castrisch,3619,Ilanz/Glion,01.01.2014
+3574,Ilanz,3619,Ilanz/Glion,01.01.2014
+3576,Ladir,3619,Ilanz/Glion,01.01.2014
+3577,Luven,3619,Ilanz/Glion,01.01.2014
+3578,Pitasch,3619,Ilanz/Glion,01.01.2014
+3579,Riein,3619,Ilanz/Glion,01.01.2014
+3580,Ruschein,3619,Ilanz/Glion,01.01.2014
+3583,Schnaus,3619,Ilanz/Glion,01.01.2014
+3584,Sevgein,3619,Ilanz/Glion,01.01.2014
+3593,Duvin,3619,Ilanz/Glion,01.01.2014
+3613,Pigniu,3619,Ilanz/Glion,01.01.2014
+3614,Rueun,3619,Ilanz/Glion,01.01.2014
+3615,Siat,3619,Ilanz/Glion,01.01.2014
+4069,Hermetschwil-Staffeln,4063,Bremgarten (AG),01.01.2014
+4109,Oberflachs,4125,Schinznach,01.01.2014
+4115,Schinznach-Dorf,4125,Schinznach,01.01.2014
+4321,Unterendingen,4305,Endingen,01.01.2014
+6171,Betten,6205,Bettmeralp,01.01.2014
+6178,Martisberg,6205,Bettmeralp,01.01.2014
+179,Sternenberg,297,Bauma,01.01.2015
+171,Bauma,297,Bauma,01.01.2015
+436,La Heutte,450,Péry-La Heutte,01.01.2015
+439,Péry,450,Péry-La Heutte,01.01.2015
+682,Bévilard,717,Valbirse,01.01.2015
+697,Malleray,717,Valbirse,01.01.2015
+702,Pontenet,717,Valbirse,01.01.2015
+684,Châtelat,716,Petit-Val,01.01.2015
+699,Monible,716,Petit-Val,01.01.2015
+710,Sornetan,716,Petit-Val,01.01.2015
+712,Souboz,716,Petit-Val,01.01.2015
+3501,Alvaschein,3542,Albula/Alvra,01.01.2015
+3502,Mon,3542,Albula/Alvra,01.01.2015
+3504,Stierva,3542,Albula/Alvra,01.01.2015
+3505,Tiefencastel,3542,Albula/Alvra,01.01.2015
+3511,Alvaneu,3542,Albula/Alvra,01.01.2015
+3512,Brienz/Brinzauls,3542,Albula/Alvra,01.01.2015
+3515,Surava,3542,Albula/Alvra,01.01.2015
+3598,St. Martin,3603,Vals,01.01.2015
+3631,Almens,3673,Domleschg,01.01.2015
+3634,Paspels,3673,Domleschg,01.01.2015
+3635,Pratval,3673,Domleschg,01.01.2015
+3636,Rodels,3673,Domleschg,01.01.2015
+3671,Tomils,3673,Domleschg,01.01.2015
+3741,Ardez,3762,Scuol,01.01.2015
+3742,Guarda,3762,Scuol,01.01.2015
+3745,Tarasp,3762,Scuol,01.01.2015
+3761,Ftan,3762,Scuol,01.01.2015
+3763,Sent,3762,Scuol,01.01.2015
+3743,Lavin,3746,Zernez,01.01.2015
+3744,Susch,3746,Zernez,01.01.2015
+3801,Arvigo,3837,Calanca,01.01.2015
+3803,Braggio,3837,Calanca,01.01.2015
+3806,Cauco,3837,Calanca,01.01.2015
+3811,Selma,3837,Calanca,01.01.2015
+175,Kyburg,296,Illnau-Effretikon,01.01.2016
+174,Illnau-Effretikon,296,Illnau-Effretikon,01.01.2016
+532,Bangerten,310,Rapperswil (BE),01.01.2016
+417,Niederösch,405,Ersigen,01.01.2016
+419,Oberösch,405,Ersigen,01.01.2016
+978,Hermiswil,988,Seeberg,01.01.2016
+2014,Dompierre (FR),2053,Belmont-Broye,01.01.2016
+2013,Domdidier,2053,Belmont-Broye,01.01.2016
+2040,Russy,2053,Belmont-Broye,01.01.2016
+2024,Léchelles,2053,Belmont-Broye,01.01.2016
+2172,Autafond,2175,Belfaux,01.01.2016
+2231,Vuisternens-en-Ogoz,2236,Gibloux,01.01.2016
+2222,Rossens (FR),2236,Gibloux,01.01.2016
+2192,Farvagny,2236,Gibloux,01.01.2016
+2184,Corpataux-Magnedens,2236,Gibloux,01.01.2016
+2223,Le Glèbe,2236,Gibloux,01.01.2016
+2264,Jeuss,2275,Murten,01.01.2016
+2270,Lurtigen,2275,Murten,01.01.2016
+2277,Salvenach,2275,Murten,01.01.2016
+2251,Courlevon,2275,Murten,01.01.2016
+2281,Haut-Vully,2284,Mont-Vully,01.01.2016
+2280,Bas-Vully,2284,Mont-Vully,01.01.2016
+3531,Bivio,3543,Surses,01.01.2016
+3532,Cunter,3543,Surses,01.01.2016
+3533,Marmorera,3543,Surses,01.01.2016
+3534,Mulegns,3543,Surses,01.01.2016
+3536,Riom-Parsonz,3543,Surses,01.01.2016
+3538,Salouf,3543,Surses,01.01.2016
+3539,Savognin,3543,Surses,01.01.2016
+3540,Sur,3543,Surses,01.01.2016
+3541,Tinizong-Rona,3543,Surses,01.01.2016
+3612,Obersaxen,3988,Obersaxen Mundaun,01.01.2016
+3617,Mundaun,3988,Obersaxen Mundaun,01.01.2016
+3883,Saas,3871,Klosters-Serneus,01.01.2016
+3893,St. Antönien,3891,Luzein,01.01.2016
+6405,Brot-Dessous,6413,Rochefort,01.01.2016
+5081,Sobrio,5072,Faido,10.04.2016
+5132,Vergeletto,5136,Onsernone,10.04.2016
+5109,Gresso,5136,Onsernone,10.04.2016
+5119,Mosogno,5136,Onsernone,10.04.2016
+5137,Isorno,5136,Onsernone,10.04.2016
+5791,Mézières (VD),5806,Jorat-Mézières,01.07.2016
+5789,Ferlens (VD),5806,Jorat-Mézières,01.07.2016
+5782,Carrouge (VD),5806,Jorat-Mézières,01.07.2016
