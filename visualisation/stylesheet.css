@@ -7,7 +7,48 @@ text {
 .background {
   fill: none;
   pointer-events: all;
+  border: 2px solid #73AD21;
+  stroke-width: 2px;
+  stroke: black;
 }
+
+#left_panel {
+  float:left;
+}
+
+#contents {
+  text-align: center
+}
+
+#right_panel {
+  float:left;
+}
+
+#title {
+  float:left;
+  margin:auto;
+}
+
+.results {
+  width:300px;
+  height : 50px;
+  color:black;
+  border: 2px solid #73AD21;
+}
+
+#citizens {
+  float:left;
+  margin-left: 10%;
+  padding : 
+}
+
+#cantons {
+  float:right;
+  margin-right: 10%;
+  padding: auto;
+}
+
+
 
 .canton-boundaries {
   fill: none;
@@ -22,9 +63,16 @@ text {
   stroke-width: .3;
 }
 
-.canton {
-  fill: #bbb;
+.municipality {
+    padding-left: 1000px;
+    fill: gray;
 }
+
+.canton {
+  fill: none;
+  opacity: 0.0;
+}
+
 
 .lake {
   fill: blue;
@@ -35,13 +83,140 @@ text {
   stroke-width: .3;
 }
 
-.overlay {
-  fill: none;
-  border: 1px solid #ccc;
-  pointer-events: all;
+
+
+.hidden {
+        display: none;
+    }
+
+div.tooltip {
+    color: #222;
+    background-color: #dbdbdb;
+    padding: .1em;
+    text-shadow: #f5f5f5 0 1px 0;
+    border-radius: 2px;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.contents {
+  margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.slider {
+  margin-top:50px;
+}
+
+.panel-collapse {
+  color:black;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+/*=======================================*/
+/* web site */
+/*=======================================*/
+/* The side navigation menu */
+.sidenav {
+    color: white;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    background-color: gray; /* Black*/
+    opacity: 0.9;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+#sideNavLeft {
+  left: 0;
+}
+
+#sideNavRight {
+  right: 0;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s
+
 }
 
 
-.feature :hover {
-  fill: orange;
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #white;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/* ==========================*/
+/* LIST VOTATION*/
+/*===========================*/
+.just-padding {
+    padding: 15px;
+}
+
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+    margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+    border-radius: 0;
+    border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+    padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+    padding-left: 45px;
+}
+
+.list-group-item .glyphicon {
+    margin-right: 5px;
 }
