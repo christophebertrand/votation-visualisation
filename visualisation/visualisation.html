@@ -25,9 +25,12 @@
 
 
 
-    <div id="contents"    style="float:left; width:100%;">
-      <!-- Side bar left-->
-      <div id="left_panel"  style="float:left; width:20%;">
+
+
+
+    <div id="header">
+
+      <div id="left_panel" class='button'>
         <h3 onclick="openNavLeft()"> Votations</h3>
         <div id="sideNavLeft" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNavLeft()">&times;</a>
@@ -43,28 +46,45 @@
       </div>
 
 
-      <div id="title">
-        <h2> Visulations of the votations in Switzerland </h2>
-      </div>
+       <div id="title">
+          Visualisation of the votations in Switzerland
+       </div>
+
+
+       <div id="right_panel" class='button'> <!--style="float:right; width:20%;"-->
+         <h3 onclick="openNavRight()"> Parameter</h3>
+           <!-- Side bar Right-->
+         <div id="sideNavRight" class="sidenav">
+           <a href="javascript:void(0)" class="closebtn" onclick="closeNavRight()">&times;</a>
+             <div id="sliders" class='contents'></div>
+             <div class='contents'>
+               <div class="panel-group">
+                 <div class="panel panel-default", id='panel_master_right'>
+                 </div>
+
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
 
 
 
-      <div id="right_panel" style="float:right; width:20%;">
-        <h3 onclick="openNavRight()"> Parameter</h3>
-          <!-- Side bar Right-->
-        <div id="sideNavRight" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNavRight()">&times;</a>
-            <div id="sliders" class='contents'></div>
-            <div class='contents'>
-              <div class="panel-group">
-                <div class="panel panel-default", id='panel_master_right'>
-                </div>
+    </div>
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
+
+
+    <div id="contents"    style="float:left; width:100%;">
+      <!-- Side bar left-->
+
+
+
+
+
+
+
     </div>
 
 

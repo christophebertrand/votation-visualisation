@@ -66,8 +66,8 @@ function displayDiv(error) {
     map.forEach(function(k,v) {
       votationDiv = document.createElement('div')
       votationDiv.className = 'panel-body'
-      votationDiv.innerHTML = v.votation
-      votationDiv.onclick = function(){ test(v.date,k)}
+      votationDiv.innerHTML = v.votation + ' ('+ v.date+')'
+      votationDiv.onclick = function(){ test(v.date,k, v)}
       votationsYearDiv.appendChild(votationDiv)
     })
 
@@ -75,18 +75,17 @@ function displayDiv(error) {
   }
 }
 
-function test(year, idVotation) {
+function test(year, idVotation, votationInfo) {
   //get year. format y: yyyy-mm-dd
   document.getElementById('sliders').innerHTML =""
   year = year.split('-')[0]
-  loadData(year, idVotation)
+  loadData(year, idVotation, votationInfo)
 }
 
 loadInfoVotation()
 
 
 function createTemplateParameters(categories){
-  console.log(categories)
   var outerDiv = document.getElementById('panel_master_right')
   for(var c in categories) {
 

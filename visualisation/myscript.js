@@ -7,15 +7,31 @@ var width = 960,
 var path = d3.geo.path()
     .projection(null);
 
+
+var zoom = d3.behavior.zoom()
+    .scaleExtent([1, 10])
+    .on("zoom", zoomed);
+
+var drag = d3.behavior.drag()
+    .origin(function(d) { return d; })
+    .on("dragstart", dragstarted)
+    .on("drag", dragged)
+    .on("dragend", dragended);
+
 var svg = d3.select("#contents").append("svg")
     .attr("width", width)
     .attr("height", height)
     .attr("margin-left",'500px')
+    .call(zoom);
 
 svg.append("rect")
     .attr("class", "background")
     .attr("width", width)
     .attr("height", height)
+
+
+
+
 
   //  .on("click", clicked);
 
@@ -27,6 +43,7 @@ var g = svg.append("g");
 var resultsVotation = d3.map();
 var dataCantonMap = d3.map();
 var population = d3.map();
+var politique = d3.map();
 
 var min = 0
 var max = 50
@@ -38,34 +55,32 @@ var topo = ""
 var sliders=[]
 var dataList = []
 
+var votationInfo =""
 
-/*
-init()
-
-function init() {
-  loadData()
-}
-*/
-
-function loadData(year, idVotation) {
+function loadData(year, idVota, info) {
+  votationInfo = info
   queue()
     .defer(d3.json, '../data/maps/'+ year + '/ch.json')
-    .defer(d3.csv, '../data/votations/'+ year + '/'+idVotation+'.csv', function(d) { resultsVotation.set(d.id.replace(/^0+/, ''), d);})
-    //.defer(d3.csv, '../data/votationsCanton/nucleaireCanton.csv', function(d) { dataCantonMap.set(d.id, d.data); })
+    .defer(d3.csv, '../data/votations/'+ year + '/'+idVota+'.csv', function(d) { resultsVotation.set(d.id.replace(/^0+/, ''), d);})
     .defer(d3.csv, '../data/municipalities/'+ year + '/data_commune.csv', function(d) { population.set(parseInt(d.id), d); })
+    .defer(d3.csv, '../data/municipalities/'+ year + '/politique_data.csv', function(d) { politique.set(parseInt(d.commune_id), d); })
     .await(displayDiv);
 }
 
 function displayDiv(error, ch) {
   if(error) throw error;
   topo = ch
+
+  //Update title -> replace by the votationDiv
+  document.getElementById('title').innerHTML = votationInfo.votation + ' ('+ votationInfo.date+')'
+
   createSlider()
   displayVisualisation(ch, resultsVotation)
 
 }
 
 function createSlider(){
-  document.getElementById('panel_master_right').innerHTML = ""
+  document.getElementById('panel_master_right').innerHTML = votationInfo.votation
   var categories = ['Population', 'Politique', 'Others']
   //create the tempplate with the titles
   createTemplateParameters(categories)
@@ -73,32 +88,51 @@ function createSlider(){
 
 
 
+  var yes = createMapData(resultsVotation,'percentage_oui', inverse = false, integer=true, percentage=true)
+  dataList.push(yes)
+  var title = 'Yes (%)'
+  setSlider('test', yes, categories[0], title)
 
-  var foreigner = createMapData(population,'percentage_swiss', inverse = true, integer=false, percentage=true)
+
+  var foreigner = createMapData(population,'percentage_swiss', inverse = true, integer=false, percentage=false)
   dataList.push(foreigner)
   var title = 'Number of foreigner (%)'
   setSlider('foreigner', foreigner, categories[0], title)
 
-  var percentage_18 = createMapData(population,'percentage_18', inverse = false, integer=false, percentage=true)
+  var percentage_18 = createMapData(population,'percentage_18', inverse = false, integer=false, percentage=false)
   dataList.push(percentage_18)
   title = 'Number of young (<18years old in %)'
   setSlider('yougth', percentage_18, categories[0], title)
 
-  var percentage_40 = createMapData(population,'percentage_40', inverse = false, integer=false, percentage=true)
+  var percentage_40 = createMapData(population,'percentage_40', inverse = false, integer=false, percentage=false)
   dataList.push(percentage_40)
   title = 'Number of people under 40 (in %)'
   setSlider('yougMen', percentage_40, categories[0], title)
 
-  var percentage_65 = createMapData(population,'percentage_65', inverse = false, integer=false, percentage=true)
+  var percentage_65 = createMapData(population,'percentage_65', inverse = false, integer=false, percentage=false)
   dataList.push(percentage_65)
   title = 'Number of under 65 (in %)'
   setSlider('men', percentage_65, categories[0], title)
 
-  var percentage_100 = createMapData(population,'percentage_100', inverse = false, integer=false, percentage=true)
+  var percentage_100 = createMapData(population,'percentage_100', inverse = false, integer=false, percentage=false)
   dataList.push(percentage_100)
   title = 'Number of elderly  (< 65years old in %)'
   setSlider('erlderly', percentage_18, categories[0], title)
 
+
+  //=====================
+  // POlitique parameters
+  // ====================
+  for(var key in politique.get(1)){
+    if(key != 'commune_id') {
+      var table= createMapData(politique,key, inverse = false, integer=true, percentage=true)
+      dataList.push(table)
+      setSlider(key, table, categories[1], key)
+    }
+  }
+  /*
+
+*/
 
 
 
@@ -110,7 +144,7 @@ From a map with id -> many information about one municipalities,
 return a map id, column where column is one columns among all information
 if inverse = True return id -> 1-column otherwise id->column
 integer =True => parseInt otherwiser float
-percentage = True => data * 100
+percentage = True => the data is already in percentage. if False => data*100
 */
 function createMapData(pop, column, inverse, integer, percentage) {
   var data =d3.map();
@@ -122,7 +156,7 @@ function createMapData(pop, column, inverse, integer, percentage) {
       v = parseFloat(x)
     }
 
-    if(percentage) {
+    if(!percentage) {
       v *= 100
     }
 
@@ -161,6 +195,8 @@ function setLake(ch) {
       .data(topojson.feature(ch, ch.objects.lakes).features)
     .enter().append("path")
       .attr("d", path)
+      .on('mousemove', function(d) {
+      })
 
   g.append("path")
     .datum(topojson.mesh(ch, ch.objects.lakes, function(a, b) { return a !== b; }))
@@ -181,7 +217,6 @@ function setMunicipalities(ch, dataColor) {
         })
       .attr("d", path)
       .on('mousemove', function(d) {
-          console.log(d.id)
           var municipalitiyInfo = population.get(d.id)
           var resultVotation = resultsVotation.get(d.id)
           var mouse = d3.mouse(svg.node()).map(function(d) {
@@ -201,8 +236,8 @@ function setMunicipalities(ch, dataColor) {
                   '<li> % <100 years olf: ' + (municipalitiyInfo['percentage_100'] *100).toFixed(2)+ '%</li>' +
                   '<li> % foreigner: ' + ((1-municipalitiyInfo['percentage_swiss'])*100).toFixed(2) + '%</li>' +
                   '<li> ------ Results ------</li>' +
-                  '<li> Yes : ' + ((resultVotation['percentage_yes'])*100).toFixed(2) + '%</li>' +
-                  '<li> Particiaption : ' + ((1-resultVotation['percentage_swiss'])*100).toFixed(2) + '%</li>' +
+                  '<li> Yes : ' + parseFloat(resultVotation['percentage_oui']).toFixed(2) + '%</li>' +
+                  '<li> Particiaption : ' + resultVotation['valables'] + '%</li>' +
 
 
 
@@ -330,7 +365,6 @@ function onSlide(values, handle) {
       resultsVotationFiltered.set(k,v)
     }
   })
-  console.log(resultsVotationFiltered)
   d3.selectAll("path").attr("fill", function (d) { return getColor(d,resultsVotationFiltered) });
   computeResultVotation(resultsVotationFiltered)
 }
@@ -342,13 +376,13 @@ function computeResultVotation(municipalities) {
   var yes = 0
   var total = 0
   municipalities.forEach(function(k,v) {
-    yes += parseInt(v.oui)
-    total += parseInt(v.valables)
+      yes += parseInt(v.oui)
+      total += parseInt(v.valables)
   })
   var resultDiv = document.getElementById('citizens')
   result = yes/total * 100
   resultDiv.innerHTML=""
-  resultDiv.innerHTML= 'Result of the citizens: ' + (result).toFixed(2) + ' %'
+  resultDiv.innerHTML= 'YES: ' + (result).toFixed(2) + ' %    NO :'  +(100-result).toFixed(2) + ' %'
 
 
 }
@@ -380,4 +414,22 @@ function clicked(d) {
       .duration(750)
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + k + ")translate(" + -x + "," + -y + ")")
       .style("stroke-width", 1.5 / k + "px");
+}
+
+
+function zoomed() {
+  g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+}
+
+function dragstarted(d) {
+  d3.event.sourceEvent.stopPropagation();
+  d3.select(this).classed("dragging", true);
+}
+
+function dragged(d) {
+  d3.select(this).attr("cx", d.x = d3.event.x).attr("cy", d.y = d3.event.y);
+}
+
+function dragended(d) {
+  d3.select(this).classed("dragging", false);
 }
