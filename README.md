@@ -8,7 +8,6 @@ We want to build a tool to visualise the result of a referendums in each municip
 The visualisation should be 'general-purpose'. That means any data that is available for all municipalities can be added and used to filter the municipalities.
 
 
-
 ## Data Description
 Votation and referendum results for each municipality since ever: (https://www.bfs.admin.ch/bfs/de/home/statistiken/politik.html)
 
@@ -23,7 +22,7 @@ There are two main difficulties:
 
   1. Aquiring good data. The difficulty here is that there are about 2,500 municipalities and we have to scrape/download the data from different platforms that may not represent the data in the same way. We expect to spend a lot of time on this particular point.
 
-  2. The visualisation should be easy to use and informative at the same time. This is especially hard since we want to be able to add any data concerning the municipalities, from the number of inhabitants to the number of Mc Donalds.
+  2. The visualisation should be easy to use and informative at the same time. This is especially hard since we want to be able to add any data concerning the municipalities, from the number of inhabitants to the number of cows per inhabitant.
 
 Other smaller problems are:
 - making the visualisation fast enough (the numbers must be recalculated everytime the user changes something)
@@ -31,7 +30,7 @@ Other smaller problems are:
 
 
 ## Deliverables
-The visualisation and if required a small report about the project.
+The visualisation
 
 ## Timeplan
 Assuming the deadline is at the end of january:
@@ -40,14 +39,3 @@ Assuming the deadline is at the end of january:
 - Then we implement it. We hope that we can start with this point before the middle of December, since this point probably takes the most time.
 - If we have time, it would be interesting to find some especially important features.
 - And then we go skiing :)
-
-# Django App
-To run the App on localhost:
-
-- Make sure django is installed (https://docs.djangoproject.com/en/1.10/intro/install/ or ``` pip install django ```)
-- Run the App
-```
-cd votation_viz_django
-python manage.py runserver
-```
-- visit `http://localhost:8000/viz/map`
