@@ -733,50 +733,6 @@ pre_id,pre_name,post_id,post_name,date
 3883,Saas,3871,Klosters-Serneus,01.01.2016
 3893,St. Antönien,3891,Luzein,01.01.2016
 6405,Brot-Dessous,6413,Rochefort,01.01.2016
-5081,Sobrio,5072,Faido,10.04.2016
-5132,Vergeletto,5136,Onsernone,10.04.2016
-5109,Gresso,5136,Onsernone,10.04.2016
-5119,Mosogno,5136,Onsernone,10.04.2016
-5137,Isorno,5136,Onsernone,10.04.2016
-5791,Mézières (VD),5806,Jorat-Mézières,01.07.2016
-5789,Ferlens (VD),5806,Jorat-Mézières,01.07.2016
-5782,Carrouge (VD),5806,Jorat-Mézières,01.07.2016
-625,Tägertschi,616,Münsingen,01.01.2017
-2049,Vuissens,2054,Estavayer,01.01.2017
-2004,Bussy (FR),2054,Estavayer,01.01.2017
-2033,Morens (FR),2054,Estavayer,01.01.2017
-2039,Rueyres-les-Prés,2054,Estavayer,01.01.2017
-2034,Murist,2054,Estavayer,01.01.2017
-2052,Vernay,2054,Estavayer,01.01.2017
-2015,Estavayer-le-Lac,2054,Estavayer,01.01.2017
-2005,Châbles,2055,Cheyres-Châbles,01.01.2017
-2010,Cheyres,2055,Cheyres-Châbles,01.01.2017
-2047,Villeneuve (FR),2044,Surpierre,01.01.2017
-2179,Chésopelloz,2183,Corminboeuf,01.01.2017
-2283,Wallenried,2254,Courtepin,01.01.2017
-2243,Barberêche,2254,Courtepin,01.01.2017
-2279,Villarepos,2254,Courtepin,01.01.2017
-2310,Zumholz,2299,Plaffeien,01.01.2017
-2298,Oberschrot,2299,Plaffeien,01.01.2017
-3833,Leggia,3832,Grono,01.01.2017
-3836,Verdabbio,3832,Grono,01.01.2017
-5686,Sarzens,5675,Lucens,01.01.2017
-5672,Forel-sur-Lucens,5675,Lucens,01.01.2017
-5662,Brenles,5675,Lucens,01.01.2017
-5666,Chesalles-sur-Moudon,5675,Lucens,01.01.2017
-5668,Cremin,5675,Lucens,01.01.2017
-5915,Essert-Pittet,5749,Chavornay,01.01.2017
-5751,Corcelles-sur-Chavornay,5749,Chavornay,01.01.2017
-6055,Blitzingen,6077,Goms,01.01.2017
-6064,Niederwald,6077,Goms,01.01.2017
-6073,Grafschaft,6077,Goms,01.01.2017
-6074,Münster-Geschinen,6077,Goms,01.01.2017
-6075,Reckingen-Gluringen,6077,Goms,01.01.2017
-6081,Les Agettes,6266,Sion,01.01.2017
-6234,Chermignon,6253,Crans-Montana,01.01.2017
-6243,Montana,6253,Crans-Montana,01.01.2017
-6242,Mollens (VS),6253,Crans-Montana,01.01.2017
-6244,Randogne,6253,Crans-Montana,01.01.2017
 1081,Beromünster,1081,Beromünster,01.01.2015
 1099,Schenkon,1099,Schenkon,01.01.2015
 3603,Vals,3603,Vals,01.01.2015
@@ -790,16 +746,3 @@ pre_id,pre_name,post_id,post_name,date
 3871,Klosters-Serneus,3871,Klosters-Serneus,01.01.2016
 3891,Luzein,3891,Luzein,01.01.2016
 6413,Rochefort,6413,Rochefort,01.01.2016
-5072,Faido,5072,Faido,10.04.2016
-5136,Onsernone,5136,Onsernone,10.04.2016
-616,Münsingen,616,Münsingen,01.01.2017
-2044,Surpierre,2044,Surpierre,01.01.2017
-2183,Corminboeuf,2183,Corminboeuf,01.01.2017
-2254,Courtepin,2254,Courtepin,01.01.2017
-2299,Plaffeien,2299,Plaffeien,01.01.2017
-3832,Grono,3832,Grono,01.01.2017
-5675,Lucens,5675,Lucens,01.01.2017
-5749,Chavornay,5749,Chavornay,01.01.2017
-6266,Sion,6266,Sion,01.01.2017
-5248,Casima,5249,Castel San Pietro,04.04.2004
-5256,Monte,5249,Castel San Pietro,04.04.2004
