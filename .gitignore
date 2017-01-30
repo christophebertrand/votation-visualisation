@@ -5,6 +5,7 @@
 data/data_to_be_processed/population.csv
 data/data_to_be_processed/population_cleaned.csv
 data/data_to_be_processed/votation_results.csv
+data/data_to_be_processed/pxc-f-1703030000_101.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
