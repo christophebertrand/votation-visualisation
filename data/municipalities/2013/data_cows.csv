@@ -1,0 +1,2325 @@
+commune,cows,id,compute_ratio_id
+Kyburg,1573,175,296
+Illnau-Effretikon,1573,174,296
+Bangerten,1716,532,310
+Rapperswil (BE),1716,310,310
+Niederösch,960,417,405
+Oberösch,960,419,405
+Ersigen,960,405,405
+Hermiswil,1629,978,988
+Seeberg,1629,988,988
+Dompierre (FR),1666,2014,2053
+Domdidier,1666,2013,2053
+Russy,1666,2040,2053
+Léchelles,1666,2024,2053
+Autafond,1170,2172,2175
+Belfaux,1170,2175,2175
+Vuisternens-en-Ogoz,4859,2231,2236
+Rossens (FR),4859,2222,2236
+Farvagny,4859,2192,2236
+Corpataux-Magnedens,4859,2184,2236
+Le Glèbe,4859,2223,2236
+Jeuss,1464,2264,2275
+Lurtigen,1464,2270,2275
+Salvenach,1464,2277,2275
+Courlevon,1464,2251,2275
+Murten,1464,2275,2275
+Haut-Vully,921,2281,2284
+Bas-Vully,921,2280,2284
+Bivio,2089,3531,3543
+Cunter,2089,3532,3543
+Marmorera,2089,3533,3543
+Mulegns,2089,3534,3543
+Riom-Parsonz,2089,3536,3543
+Salouf,2089,3538,3543
+Savognin,2089,3539,3543
+Sur,2089,3540,3543
+Tinizong-Rona,2089,3541,3543
+Obersaxen,1578,3612,3988
+Mundaun,1578,3617,3988
+Saas,1737,3883,3871
+Klosters-Serneus,1737,3871,3871
+St. Antönien,1905,3893,3891
+Luzein,1905,3891,3891
+Brot-Dessous,810,6405,6413
+Rochefort,810,6413,6413
+Aeugst am Albis,622,1,1
+Affoltern am Albis,596,2,2
+Bonstetten,314,3,3
+Hausen am Albis,1368,4,4
+Hedingen,312,5,5
+Kappel am Albis,1012,6,6
+Knonau,749,7,7
+Maschwanden,522,8,8
+Mettmenstetten,1889,9,9
+Obfelden,521,10,10
+Ottenbach,195,11,11
+Rifferswil,618,12,12
+Stallikon,551,13,13
+Wettswil am Albis,46,14,14
+Adlikon,429,21,21
+Benken (ZH),323,22,22
+Berg am Irchel,190,23,23
+Buch am Irchel,962,24,24
+Dachsen,0,25,25
+Dorf,117,26,26
+Feuerthalen,0,27,27
+Flaach,532,28,28
+Flurlingen,12,29,29
+Andelfingen,128,30,30
+Henggart,20,31,31
+Humlikon,46,32,32
+Kleinandelfingen,380,33,33
+Laufen-Uhwiesen,278,34,34
+Marthalen,439,35,35
+Oberstammheim,791,36,36
+Ossingen,1195,37,37
+Rheinau,125,38,38
+Thalheim an der Thur,543,39,39
+Trüllikon,403,40,40
+Truttikon,480,41,41
+Unterstammheim,468,42,42
+Volken,212,43,43
+Waltalingen,493,44,44
+Bachenbülach,23,51,51
+Bassersdorf,325,52,52
+Bülach,362,53,53
+Dietlikon,47,54,54
+Eglisau,210,55,55
+Embrach,501,56,56
+Freienstein-Teufen,579,57,57
+Glattfelden,762,58,58
+Hochfelden,349,59,59
+Höri,379,60,60
+Hüntwangen,107,61,61
+Kloten,566,62,62
+Lufingen,57,63,63
+Nürensdorf,428,64,64
+Oberembrach,933,65,65
+Opfikon,101,66,66
+Rafz,637,67,67
+Rorbas,172,68,68
+Wallisellen,62,69,69
+Wasterkingen,257,70,70
+Wil (ZH),449,71,71
+Winkel,194,72,72
+Bachs,583,81,81
+Boppelsen,118,82,82
+Buchs (ZH),48,83,83
+Dällikon,185,84,84
+Dänikon,79,85,85
+Dielsdorf,81,86,86
+Hüttikon,223,87,87
+Neerach,627,88,88
+Niederglatt,270,89,89
+Niederhasli,881,90,90
+Niederweningen,463,91,91
+Oberglatt,61,92,92
+Oberweningen,148,93,93
+Otelfingen,359,94,94
+Regensberg,117,95,95
+Regensdorf,814,96,96
+Rümlang,248,97,97
+Schleinikon,366,98,98
+Schöfflisdorf,143,99,99
+Stadel,1505,100,100
+Steinmaur,358,101,101
+Weiach,167,102,102
+Bäretswil,1638,111,111
+Bubikon,1168,112,112
+Dürnten,849,113,113
+Fischenthal,1348,114,114
+Gossau (ZH),1770,115,115
+Grüningen,914,116,116
+Hinwil,2221,117,117
+Rüti (ZH),681,118,118
+Seegräben,389,119,119
+Wald (ZH),2477,120,120
+Wetzikon (ZH),905,121,121
+Adliswil,21,131,131
+Hirzel,1656,132,132
+Horgen,645,133,133
+Hütten,779,134,134
+Kilchberg (ZH),41,135,135
+Langnau am Albis,367,136,136
+Oberrieden,0,137,137
+Richterswil,810,138,138
+Rüschlikon,38,139,139
+Schönenberg (ZH),1275,140,140
+Thalwil,89,141,141
+Wädenswil,1771,142,142
+Erlenbach (ZH),0,151,151
+Herrliberg,648,152,152
+Hombrechtikon,1307,153,153
+Küsnacht (ZH),383,154,154
+Männedorf,78,155,155
+Meilen,797,156,156
+Oetwil am See,556,157,157
+Stäfa,276,158,158
+Uetikon am See,183,159,159
+Zumikon,27,160,160
+Zollikon,0,161,161
+Fehraltorf,732,172,172
+Hittnau,1112,173,173
+Lindau,885,176,176
+Pfäffikon,1418,177,177
+Russikon,825,178,178
+Weisslingen,1121,180,180
+Wila,618,181,181
+Wildberg,876,182,182
+Bauma,1355,297,297
+Dübendorf,286,191,191
+Egg,1318,192,192
+Fällanden,139,193,193
+Greifensee,145,194,194
+Maur,1314,195,195
+Mönchaltorf,544,196,196
+Schwerzenbach,87,197,197
+Uster,1377,198,198
+Volketswil,690,199,199
+Wangen-Brüttisellen,397,200,200
+Altikon,598,211,211
+Brütten,473,213,213
+Dägerlen,651,214,214
+Dättlikon,96,215,215
+Dinhard,634,216,216
+Elgg,964,217,217
+Ellikon an der Thur,264,218,218
+Elsau,458,219,219
+Hagenbuch,564,220,220
+Hettlingen,312,221,221
+Hofstetten (ZH),571,222,222
+Neftenbach,1031,223,223
+Pfungen,226,224,224
+Rickenbach (ZH),1031,225,225
+Schlatt (ZH),715,226,226
+Seuzach,543,227,227
+Turbenthal,1506,228,228
+Winterthur,1317,230,230
+Zell (ZH),689,231,231
+Wiesendangen,1562,298,298
+Aesch (ZH),387,241,241
+Birmensdorf (ZH),559,242,242
+Dietikon,237,243,243
+Geroldswil,0,244,244
+Oberengstringen,0,245,245
+Oetwil an der Limmat,207,246,246
+Schlieren,182,247,247
+Uitikon,260,248,248
+Unterengstringen,71,249,249
+Urdorf,125,250,250
+Weiningen (ZH),75,251,251
+Zürich,781,261,261
+Corgémont,818,431,431
+Cormoret,481,432,432
+Cortébert,599,433,433
+Courtelary,1116,434,434
+La Ferrière,1110,435,435
+Mont-Tramelan,557,437,437
+Orvin,668,438,438
+Renan (BE),879,441,441
+Romont (BE),332,442,442
+Saint-Imier,748,443,443
+Sonceboz-Sombeval,937,444,444
+Sonvilier,1872,445,445
+Tramelan,1742,446,446
+Villeret,561,448,448
+Sauge,256,449,449
+Péry-La Heutte,435,450,450
+Belprahon,132,681,681
+Champoz,376,683,683
+Corcelles (BE),383,687,687
+Court,859,690,690
+Crémines,598,691,691
+Eschert,301,692,692
+Grandval,377,694,694
+Loveresse,237,696,696
+Moutier,792,700,700
+Perrefitte,318,701,701
+Reconvilier,294,703,703
+Roches (BE),286,704,704
+Saicourt,569,706,706
+Saules (BE),207,707,707
+Schelten,315,708,708
+Seehof,492,709,709
+Sorvilier,260,711,711
+Tavannes,963,713,713
+Rebévelier,310,715,715
+Petit-Val,1504,716,716
+Valbirse,803,717,717
+La Neuveville,54,723,723
+Nods,1005,724,724
+Plateau de Diesse,1264,726,726
+Biel/Bienne,82,371,371
+Evilard,286,372,372
+Lengnau (BE),366,387,387
+Meinisberg,124,390,390
+Pieterlen,300,392,392
+Aegerten,22,731,731
+Bellmund,240,732,732
+Brügg,156,733,733
+Ipsach,13,739,739
+Ligerz,0,740,740
+Mörigen,93,742,742
+Nidau,0,743,743
+Orpund,201,744,744
+Port,42,745,745
+Safnern,155,746,746
+Scheuren,408,747,747
+Schwadernau,473,748,748
+Sutz-Lattrigen,59,750,750
+Twann-Tüscherz,382,756,756
+Aarberg,525,301,301
+Bargen (BE),352,302,302
+Grossaffoltern,1017,303,303
+Kallnach,1266,304,304
+Kappelen,872,305,305
+Lyss,459,306,306
+Radelfingen,1174,309,309
+Schüpfen,1463,311,311
+Seedorf (BE),2034,312,312
+Arch,239,381,381
+Büetigen,170,382,382
+Büren an der Aare,444,383,383
+Diessbach bei Büren,722,385,385
+Dotzigen,778,386,386
+Leuzigen,981,388,388
+Meienried,166,389,389
+Oberwil bei Büren,424,391,391
+Rüti bei Büren,268,393,393
+Wengi,489,394,394
+Brüttelen,274,491,491
+Erlach,168,492,492
+Finsterhennen,45,493,493
+Gals,464,494,494
+Gampelen,263,495,495
+Ins,1812,496,496
+Lüscherz,360,497,497
+Müntschemier,9,498,498
+Siselen,271,499,499
+Treiten,150,500,500
+Tschugg,175,501,501
+Vinelz,285,502,502
+Bühl,387,734,734
+Epsach,234,735,735
+Hagneck,89,736,736
+Hermrigen,216,737,737
+Jens,335,738,738
+Merzligen,39,741,741
+Studen (BE),89,749,749
+Täuffelen,126,751,751
+Walperswil,644,754,754
+Worben,437,755,755
+Aarwangen,772,321,321
+Auswil,612,322,322
+Bannwil,296,323,323
+Bleienbach,506,324,324
+Busswil bei Melchnau,249,325,325
+Gondiswil,1162,326,326
+Langenthal,546,329,329
+Lotzwil,473,331,331
+Madiswil,2590,332,332
+Melchnau,770,333,333
+Obersteckholz,379,334,334
+Oeschenbach,521,335,335
+Reisiswil,259,336,336
+Roggwil (BE),167,337,337
+Rohrbach,292,338,338
+Rohrbachgraben,960,339,339
+Rütschelen,330,340,340
+Schwarzhäusern,196,341,341
+Thunstetten,897,342,342
+Ursenbach,993,344,344
+Wynau,347,345,345
+Eriswil,1782,953,953
+Huttwil,2220,954,954
+Walterswil (BE),1237,959,959
+Wyssachen,1927,960,960
+Attiswil,596,971,971
+Berken,115,972,972
+Bettenhausen,403,973,973
+Farnern,285,975,975
+Graben,272,976,976
+Heimenhausen,474,977,977
+Herzogenbuchsee,336,979,979
+Inkwil,211,980,980
+Niederbipp,1426,981,981
+Niederönz,196,982,982
+Oberbipp,493,983,983
+Ochlenberg,1389,985,985
+Rumisberg,441,987,987
+Thörigen,436,989,989
+Walliswil bei Niederbipp,86,990,990
+Walliswil bei Wangen,196,991,991
+Wangen an der Aare,482,992,992
+Wangenried,282,993,993
+Wiedlisbach,559,995,995
+Wolfisberg,251,996,996
+Aefligen,255,401,401
+Alchenstorf,598,402,402
+Burgdorf,410,404,404
+Hasle bei Burgdorf,2642,406,406
+Heimiswil,2789,407,407
+Hellsau,202,408,408
+Hindelbank,461,409,409
+Höchstetten,268,410,410
+Kernenried,418,411,411
+Kirchberg (BE),1036,412,412
+Koppigen,446,413,413
+Krauchthal,1527,414,414
+Lyssach,236,415,415
+Mötschwil,161,416,416
+Oberburg,1689,418,418
+Rüdtligen-Alchenflüh,180,420,420
+Rumendingen,179,421,421
+Rüti bei Lyssach,232,422,422
+Willadingen,342,423,423
+Wynigen,3159,424,424
+Bätterkinden,473,533,533
+Utzenstorf,928,552,552
+Wiler bei Utzenstorf,260,554,554
+Zielebach,165,556,556
+Eggiwil,5606,901,901
+Langnau im Emmental,4328,902,902
+Lauperswil,2109,903,903
+Röthenbach im Emmental,2856,904,904
+Rüderswil,2243,905,905
+Schangnau,2668,906,906
+Signau,2408,907,907
+Trub,3880,908,908
+Trubschachen,1386,909,909
+Affoltern im Emmental,1532,951,951
+Dürrenroth,1773,952,952
+Lützelflüh,3385,955,955
+Rüegsau,2175,956,956
+Sumiswald,5002,957,957
+Trachselwald,1826,958,958
+Meikirch,1088,307,307
+Bern,1113,351,351
+Bolligen,1285,352,352
+Bremgarten bei Bern,101,353,353
+Kirchlindach,1688,354,354
+Köniz,4483,355,355
+Muri bei Bern,169,356,356
+Oberbalm,1655,357,357
+Stettlen,226,358,358
+Vechigen,2359,359,359
+Wohlen bei Bern,2873,360,360
+Zollikofen,822,361,361
+Ittigen,260,362,362
+Ostermundigen,239,363,363
+Bäriswil,75,403,403
+Deisswil bei Münchenbuchsee,114,535,535
+Diemerswil,312,536,536
+Fraubrunnen,2078,538,538
+Jegenstorf,888,540,540
+Iffwil,355,541,541
+Mattstetten,67,543,543
+Moosseedorf,222,544,544
+Münchenbuchsee,218,546,546
+Urtenen-Schönbühl,203,551,551
+Wiggiswil,255,553,553
+Zuzwil (BE),244,557,557
+Arni (BE),1654,602,602
+Biglen,278,603,603
+Bowil,1463,605,605
+Brenzikofen,280,606,606
+Freimettigen,234,607,607
+Grosshöchstetten,257,608,608
+Häutligen,389,609,609
+Herbligen,396,610,610
+Kiesen,217,611,611
+Konolfingen,1683,612,612
+Landiswil,1319,613,613
+Linden,1563,614,614
+Mirchel,443,615,615
+Münsingen,862,616,616
+Niederhünigen,410,617,617
+Oberdiessbach,1442,619,619
+Oberthal,1318,620,620
+Oppligen,270,622,622
+Rubigen,586,623,623
+Schlosswil,649,624,624
+Tägertschi,481,625,625
+Walkringen,1945,626,626
+Worb,2125,627,627
+Zäziwil,648,628,628
+Oberhünigen,510,629,629
+Allmendingen,545,630,630
+Wichtrach,983,632,632
+Clavaleyres,229,661,661
+Ferenbalm,708,662,662
+Frauenkappelen,350,663,663
+Golaten,97,664,664
+Gurbrü,234,665,665
+Kriechenwil,447,666,666
+Laupen,159,667,667
+Mühleberg,2569,668,668
+Münchenwiler,579,669,669
+Neuenegg,1714,670,670
+Wileroltigen,295,671,671
+Guggisberg,3918,852,852
+Rüschegg,1510,853,853
+Schwarzenburg,6052,855,855
+Belp,2016,861,861
+Gelterfingen,357,865,865
+Gerzensee,974,866,866
+Jaberg,83,868,868
+Kaufdorf,223,869,869
+Kehrsatz,453,870,870
+Kirchdorf (BE),707,872,872
+Kirchenthurnen,238,873,873
+Lohnstorf,371,874,874
+Mühledorf (BE),193,875,875
+Mühlethurnen,319,876,876
+Niedermuhlern,977,877,877
+Noflen,352,878,878
+Riggisberg,2039,879,879
+Rüeggisberg,3814,880,880
+Rümligen,519,881,881
+Toffen,410,884,884
+Wald (BE),1832,888,888
+Reutigen,807,767,767
+Stocken-Höfen,1044,770,770
+Burgistein,1031,863,863
+Gurzelen,813,867,867
+Seftigen,410,883,883
+Uttigen,356,885,885
+Wattenwil,1137,886,886
+Amsoldingen,707,921,921
+Blumenstein,695,922,922
+Buchholterberg,2048,923,923
+Eriz,869,924,924
+Fahrni,1113,925,925
+Heiligenschwendi,410,927,927
+Heimberg,343,928,928
+Hilterfingen,0,929,929
+Homberg,804,931,931
+Horrenbach-Buchen,640,932,932
+Oberhofen am Thunersee,106,934,934
+Oberlangenegg,893,935,935
+Pohlern,403,936,936
+Schwendibach,207,937,937
+Sigriswil,2660,938,938
+Steffisburg,929,939,939
+Teuffenthal (BE),417,940,940
+Thierachern,991,941,941
+Thun,802,942,942
+Uebeschi,882,943,943
+Uetendorf,1234,944,944
+Unterlangenegg,1029,945,945
+Wachseldorn,639,946,946
+Zwieselberg,318,947,947
+Forst-Längenbühl,893,948,948
+Boltigen,2906,791,791
+Lenk,2978,792,792
+St. Stephan,2485,793,793
+Zweisimmen,2566,794,794
+Gsteig,1201,841,841
+Lauenen,1217,842,842
+Saanen,5039,843,843
+Adelboden,3072,561,561
+Aeschi bei Spiez,1732,562,562
+Frutigen,5314,563,563
+Kandergrund,1004,564,564
+Kandersteg,267,565,565
+Krattigen,286,566,566
+Reichenbach im Kandertal,3057,567,567
+Därstetten,1454,761,761
+Diemtigen,3707,762,762
+Erlenbach im Simmental,1551,763,763
+Oberwil im Simmental,2360,766,766
+Spiez,1347,768,768
+Wimmis,1156,769,769
+Beatenberg,566,571,571
+Bönigen,204,572,572
+Brienz (BE),1261,573,573
+Brienzwiler,5,574,574
+Därligen,134,575,575
+Grindelwald,1965,576,576
+Gsteigwiler,213,577,577
+Gündlischwand,13,578,578
+Habkern,1218,579,579
+Hofstetten bei Brienz,330,580,580
+Interlaken,30,581,581
+Iseltwald,168,582,582
+Lauterbrunnen,1006,584,584
+Leissigen,129,585,585
+Lütschental,314,586,586
+Matten bei Interlaken,227,587,587
+Niederried bei Interlaken,39,588,588
+Oberried am Brienzersee,75,589,589
+Ringgenberg (BE),241,590,590
+Saxeten,220,591,591
+Schwanden bei Brienz,130,592,592
+Unterseen,751,593,593
+Wilderswil,412,594,594
+Guttannen,159,782,782
+Hasliberg,1370,783,783
+Innertkirchen,1073,784,784
+Meiringen,2009,785,785
+Schattenhalb,462,786,786
+Luzern,1465,1061,1061
+Adligenswil,749,1051,1051
+Buchrain,286,1052,1052
+Dierikon,332,1053,1053
+Ebikon,728,1054,1054
+Gisikon,117,1055,1055
+Greppen,361,1056,1056
+Honau,169,1057,1057
+Horw,601,1058,1058
+Kriens,1216,1059,1059
+Malters,4175,1062,1062
+Meggen,405,1063,1063
+Meierskappel,852,1064,1064
+Root,503,1065,1065
+Schwarzenberg,2054,1066,1066
+Udligenswil,744,1067,1067
+Vitznau,391,1068,1068
+Weggis,933,1069,1069
+Aesch (LU),626,1021,1021
+Altwis,256,1022,1022
+Ballwil,1466,1023,1023
+Emmen,1968,1024,1024
+Ermensee,476,1025,1025
+Eschenbach (LU),2188,1026,1026
+Hitzkirch,2992,1030,1030
+Hochdorf,1203,1031,1031
+Hohenrain,3727,1032,1032
+Inwil,1502,1033,1033
+Rain,1515,1037,1037
+Römerswil,2826,1039,1039
+Rothenburg,2589,1040,1040
+Schongau,1751,1041,1041
+Beromünster,1081,1081,1081
+Büron,768,1082,1082
+Buttisholz,2802,1083,1083
+Eich,711,1084,1084
+Geuensee,767,1085,1085
+Grosswangen,3491,1086,1086
+Hildisrieden,983,1088,1088
+Knutwil,1146,1089,1089
+Mauensee,970,1091,1091
+Neuenkirch,4030,1093,1093
+Nottwil,1447,1094,1094
+Oberkirch,1135,1095,1095
+Rickenbach (LU),1299,1097,1097
+Ruswil,7227,1098,1098
+Schenkon,5496,1099,1099
+Schlierbach,588,1100,1100
+Sempach,830,1102,1102
+Sursee,109,1103,1103
+Triengen,2402,1104,1104
+Alberswil,597,1121,1121
+Altbüron,1177,1122,1122
+Altishofen,381,1123,1123
+Dagmersellen,2548,1125,1125
+Ebersecken,1459,1126,1126
+Egolzwil,546,1127,1127
+Ettiswil,1318,1128,1128
+Fischbach,1492,1129,1129
+Gettnau,782,1130,1130
+Grossdietwil,1574,1131,1131
+Hergiswil bei Willisau,3901,1132,1132
+Luthern,4345,1135,1135
+Menznau,4048,1136,1136
+Nebikon,309,1137,1137
+Pfaffnau,1903,1139,1139
+Reiden,2029,1140,1140
+Roggliswil,714,1142,1142
+Schötz,1846,1143,1143
+Ufhusen,2072,1145,1145
+Wauwil,446,1146,1146
+Wikon,485,1147,1147
+Zell (LU),1847,1150,1150
+Willisau,5276,1151,1151
+Doppleschwand,998,1001,1001
+Entlebuch,4728,1002,1002
+Flühli,2727,1004,1004
+Hasle (LU),2692,1005,1005
+Romoos,2116,1007,1007
+Schüpfheim,4934,1008,1008
+Werthenstein,1911,1009,1009
+Escholzmatt-Marbach,7882,1010,1010
+Wolhusen,2075,1107,1107
+Altdorf (UR),795,1201,1201
+Andermatt,440,1202,1202
+Attinghausen,602,1203,1203
+Bauen,90,1204,1204
+Bürglen (UR),2149,1205,1205
+Erstfeld,741,1206,1206
+Flüelen,264,1207,1207
+Göschenen,100,1208,1208
+Gurtnellen,425,1209,1209
+Hospental,130,1210,1210
+Isenthal,784,1211,1211
+Realp,24,1212,1212
+Schattdorf,867,1213,1213
+Seedorf (UR),240,1214,1214
+Seelisberg,547,1215,1215
+Silenen,729,1216,1216
+Sisikon,135,1217,1217
+Spiringen,1381,1218,1218
+Unterschächen,685,1219,1219
+Wassen,266,1220,1220
+Einsiedeln,5288,1301,1301
+Gersau,764,1311,1311
+Feusisberg,1765,1321,1321
+Freienbach,772,1322,1322
+Wollerau,513,1323,1323
+Küssnacht (SZ),3154,1331,1331
+Altendorf,1696,1341,1341
+Galgenen,1172,1342,1342
+Innerthal,159,1343,1343
+Lachen,65,1344,1344
+Reichenburg,832,1345,1345
+Schübelbach,2183,1346,1346
+Tuggen,1597,1347,1347
+Vorderthal,992,1348,1348
+Wangen (SZ),972,1349,1349
+Alpthal,642,1361,1361
+Arth,2460,1362,1362
+Illgau,806,1363,1363
+Ingenbohl,807,1364,1364
+Lauerz,627,1365,1365
+Morschach,789,1366,1366
+Muotathal,2267,1367,1367
+Oberiberg,762,1368,1368
+Riemenstalden,227,1369,1369
+Rothenthurm,1900,1370,1370
+Sattel,1703,1371,1371
+Schwyz,3963,1372,1372
+Steinen,1470,1373,1373
+Steinerberg,1282,1374,1374
+Unteriberg,1863,1375,1375
+Alpnach,2222,1401,1401
+Engelberg,1304,1402,1402
+Giswil,2466,1403,1403
+Kerns,3715,1404,1404
+Lungern,1504,1405,1405
+Sachseln,2409,1406,1406
+Sarnen,3994,1407,1407
+Beckenried,864,1501,1501
+Buochs,1371,1502,1502
+Dallenwil,1318,1503,1503
+Emmetten,582,1504,1504
+Ennetbürgen,1107,1505,1505
+Ennetmoos,1601,1506,1506
+Hergiswil (NW),361,1507,1507
+Oberdorf (NW),1750,1508,1508
+Stans,773,1509,1509
+Stansstad,802,1510,1510
+Wolfenschiessen,1591,1511,1511
+Glarus Nord,5114,1630,1630
+Glarus Süd,4388,1631,1631
+Glarus,1886,1632,1632
+Baar,2657,1701,1701
+Cham,2204,1702,1702
+Hünenberg,3233,1703,1703
+Menzingen,3353,1704,1704
+Neuheim,1007,1705,1705
+Oberägeri,2207,1706,1706
+Risch,1827,1707,1707
+Steinhausen,342,1708,1708
+Unterägeri,1271,1709,1709
+Walchwil,887,1710,1710
+Zug,8717,1711,1711
+Bussy (FR),177,2004,2004
+Châbles,579,2005,2005
+Châtillon (FR),173,2008,2008
+Cheiry,602,2009,2009
+Cheyres,168,2010,2010
+Cugy (FR),1391,2011,2011
+Estavayer-le-Lac,165,2015,2015
+Fétigny,260,2016,2016
+Gletterens,231,2022,2022
+Lully (FR),214,2025,2025
+Ménières,243,2027,2027
+Montagny (FR),1536,2029,2029
+Morens (FR),80,2033,2033
+Murist,767,2034,2034
+Nuvilly,660,2035,2035
+Prévondavaux,416,2038,2038
+Rueyres-les-Prés,251,2039,2039
+Saint-Aubin (FR),684,2041,2041
+Sévaz,1,2043,2043
+Surpierre,366,2044,2044
+Vallon,283,2045,2045
+Villeneuve (FR),147,2047,2047
+Vuissens,270,2049,2049
+Les Montets,508,2050,2050
+Delley-Portalban,121,2051,2051
+Vernay,344,2052,2052
+Auboranges,189,2061,2061
+Billens-Hennens,784,2063,2063
+Chapelle (Glâne),146,2066,2066
+Le Châtelard,1426,2067,2067
+Châtonnaye,557,2068,2068
+Ecublens (FR),802,2072,2072
+Grangettes,420,2079,2079
+Massonnens,983,2086,2086
+Mézières (FR),1314,2087,2087
+Montet (Glâne),93,2089,2089
+Romont (FR),1334,2096,2096
+Rue,1354,2097,2097
+Siviriez,3987,2099,2099
+Ursy,2120,2102,2102
+Villaz-Saint-Pierre,701,2111,2111
+Vuisternens-devant-Romont,4583,2113,2113
+Villorsonnens,2339,2114,2114
+Torny,1295,2115,2115
+La Folliaz,1530,2116,2116
+Haut-Intyamon,983,2121,2121
+Pont-en-Ogoz,1297,2122,2122
+Botterens,201,2123,2123
+Broc,461,2124,2124
+Bulle,1449,2125,2125
+Châtel-sur-Montsalvens,165,2128,2128
+Corbières,478,2129,2129
+Crésuz,0,2130,2130
+Echarlens,694,2131,2131
+Grandvillard,593,2134,2134
+Gruyères,1237,2135,2135
+Hauteville,352,2137,2137
+Jaun,695,2138,2138
+Marsens,677,2140,2140
+Morlon,351,2143,2143
+Le Pâquier (FR),550,2145,2145
+Pont-la-Ville,930,2147,2147
+Riaz,886,2148,2148
+La Roche,1386,2149,2149
+Sâles,3869,2152,2152
+Sorens,1222,2153,2153
+Vaulruz,1710,2155,2155
+Vuadens,1752,2160,2160
+Bas-Intyamon,810,2162,2162
+Val-de-Charmey,1685,2163,2163
+Arconciel,792,2171,2171
+Autigny,992,2173,2173
+Avry,954,2174,2174
+Chénens,257,2177,2177
+Chésopelloz,275,2179,2179
+Corminboeuf,424,2183,2183
+Corserey,461,2185,2185
+Cottens (FR),720,2186,2186
+Ependes (FR),784,2189,2189
+Ferpicloz,46,2194,2194
+Fribourg,63,2196,2196
+Givisiez,59,2197,2197
+Granges-Paccot,480,2198,2198
+Grolley,644,2200,2200
+Marly,305,2206,2206
+Matran,254,2208,2208
+Neyruz (FR),326,2211,2211
+Noréaz,1326,2213,2213
+Pierrafortscha,324,2216,2216
+Ponthaux,622,2217,2217
+Le Mouret,1825,2220,2220
+Prez-vers-Noréaz,624,2221,2221
+Senèdes,48,2225,2225
+Treyvaux,1906,2226,2226
+Villars-sur-Glâne,88,2228,2228
+Villarsel-sur-Marly,290,2230,2230
+Hauterive (FR),1563,2233,2233
+La Brillaz,1335,2234,2234
+La Sonnaz,573,2235,2235
+Barberêche,1132,2243,2243
+Courgevaux,150,2250,2250
+Courtepin,261,2254,2254
+Cressier (FR),226,2257,2257
+Fräschels,148,2258,2258
+Galmiz,303,2259,2259
+Gempenach,98,2260,2260
+Greng,239,2261,2261
+Gurmels,1831,2262,2262
+Kerzers,759,2265,2265
+Kleinbösingen,209,2266,2266
+Meyriez,0,2271,2271
+Misery-Courtion,1397,2272,2272
+Muntelier,21,2274,2274
+Ried bei Kerzers,283,2276,2276
+Ulmiz,193,2278,2278
+Villarepos,254,2279,2279
+Wallenried,422,2283,2283
+Alterswil,2275,2291,2291
+Brünisried,449,2292,2292
+Düdingen,2642,2293,2293
+Giffers,842,2294,2294
+Bösingen,1267,2295,2295
+Heitenried,1127,2296,2296
+Oberschrot,690,2298,2298
+Plaffeien,1083,2299,2299
+Plasselb,724,2300,2300
+Rechthalten,1017,2301,2301
+St. Antoni,2229,2302,2302
+St. Silvester,605,2303,2303
+St. Ursen,1873,2304,2304
+Schmitten (FR),1221,2305,2305
+Tafers,807,2306,2306
+Tentlingen,570,2307,2307
+Ueberstorf,1877,2308,2308
+Wünnewil-Flamatt,1216,2309,2309
+Zumholz,306,2310,2310
+Attalens,1360,2321,2321
+Bossonnens,511,2323,2323
+Châtel-Saint-Denis,2018,2325,2325
+Granges (Veveyse),466,2328,2328
+Remaufens,916,2333,2333
+Saint-Martin (FR),2130,2335,2335
+Semsales,1092,2336,2336
+Le Flon,1328,2337,2337
+La Verrerie,2935,2338,2338
+Egerkingen,205,2401,2401
+Härkingen,489,2402,2402
+Kestenholz,703,2403,2403
+Neuendorf,482,2404,2404
+Niederbuchsiten,648,2405,2405
+Oberbuchsiten,68,2406,2406
+Oensingen,181,2407,2407
+Wolfwil,411,2408,2408
+Aedermannsdorf,691,2421,2421
+Balsthal,472,2422,2422
+Gänsbrunnen,385,2423,2423
+Herbetswil,649,2424,2424
+Holderbank (SO),390,2425,2425
+Laupersdorf,1316,2426,2426
+Matzendorf,1064,2427,2427
+Mümliswil-Ramiswil,2780,2428,2428
+Welschenrohr,925,2429,2429
+Biezwil,109,2445,2445
+Lüterkofen-Ichertswil,203,2455,2455
+Lüterswil-Gächliwil,103,2456,2456
+Messen,838,2457,2457
+Schnottwil,447,2461,2461
+Unterramsern,266,2463,2463
+Lüsslingen-Nennigkofen,541,2464,2464
+Buchegg,1792,2465,2465
+Bättwil,36,2471,2471
+Büren (SO),342,2472,2472
+Dornach,65,2473,2473
+Gempen,560,2474,2474
+Hochwald,350,2475,2475
+Hofstetten-Flüh,120,2476,2476
+Metzerlen-Mariastein,450,2477,2477
+Nuglar-St. Pantaleon,21,2478,2478
+Rodersdorf,274,2479,2479
+Seewen,589,2480,2480
+Witterswil,56,2481,2481
+Hauenstein-Ifenthal,427,2491,2491
+Kienberg,745,2492,2492
+Lostorf,462,2493,2493
+Niedergösgen,69,2495,2495
+Obergösgen,257,2497,2497
+Rohr (SO),163,2498,2498
+Stüsslingen,369,2499,2499
+Trimbach,438,2500,2500
+Winznau,245,2501,2501
+Wisen (SO),362,2502,2502
+Erlinsbach (SO),456,2503,2503
+Aeschi (SO),596,2511,2511
+Biberist,459,2513,2513
+Bolken,97,2514,2514
+Deitingen,755,2516,2516
+Derendingen,285,2517,2517
+Etziken,298,2518,2518
+Gerlafingen,1,2519,2519
+Halten,235,2520,2520
+Horriwil,248,2523,2523
+Hüniken,36,2524,2524
+Kriegstetten,53,2525,2525
+Lohn-Ammannsegg,427,2526,2526
+Luterbach,22,2527,2527
+Obergerlafingen,95,2528,2528
+Oekingen,255,2529,2529
+Recherswil,162,2530,2530
+Subingen,641,2532,2532
+Zuchwil,0,2534,2534
+Drei Höfe,260,2535,2535
+Balm bei Günsberg,277,2541,2541
+Bellach,561,2542,2542
+Bettlach,809,2543,2543
+Feldbrunnen-St. Niklaus,83,2544,2544
+Flumenthal,236,2545,2545
+Grenchen,676,2546,2546
+Günsberg,310,2547,2547
+Hubersdorf,190,2548,2548
+Kammersrohr,161,2549,2549
+Langendorf,8,2550,2550
+Lommiswil,379,2551,2551
+Oberdorf (SO),616,2553,2553
+Riedholz,280,2554,2554
+Rüttenen,345,2555,2555
+Selzach,748,2556,2556
+Boningen,110,2571,2571
+Däniken,441,2572,2572
+Dulliken,302,2573,2573
+Eppenberg-Wöschnau,78,2574,2574
+Fulenbach,517,2575,2575
+Gretzenbach,172,2576,2576
+Gunzgen,255,2578,2578
+Hägendorf,493,2579,2579
+Kappel (SO),179,2580,2580
+Olten,65,2581,2581
+Rickenbach (SO),103,2582,2582
+Schönenwerd,33,2583,2583
+Starrkirch-Wil,10,2584,2584
+Walterswil (SO),642,2585,2585
+Wangen bei Olten,301,2586,2586
+Solothurn,89,2601,2601
+Bärschwil,560,2611,2611
+Beinwil (SO),1244,2612,2612
+Breitenbach,424,2613,2613
+Büsserach,396,2614,2614
+Erschwil,389,2615,2615
+Fehren,198,2616,2616
+Grindel,320,2617,2617
+Himmelried,266,2618,2618
+Kleinlützel,978,2619,2619
+Meltingen,345,2620,2620
+Nunningen,435,2621,2621
+Zullwil,137,2622,2622
+Basel,25,2701,2701
+Bettingen,211,2702,2702
+Riehen,100,2703,2703
+Aesch (BL),610,2761,2761
+Allschwil,305,2762,2762
+Arlesheim,21,2763,2763
+Biel-Benken,188,2764,2764
+Binningen,161,2765,2765
+Birsfelden,0,2766,2766
+Bottmingen,40,2767,2767
+Ettingen,185,2768,2768
+Münchenstein,113,2769,2769
+Muttenz,204,2770,2770
+Oberwil (BL),123,2771,2771
+Pfeffingen,227,2772,2772
+Reinach (BL),56,2773,2773
+Schönenbuch,128,2774,2774
+Therwil,206,2775,2775
+Blauen,148,2781,2781
+Brislach,768,2782,2782
+Burg im Leimental,38,2783,2783
+Dittingen,131,2784,2784
+Duggingen,169,2785,2785
+Grellingen,4,2786,2786
+Laufen,228,2787,2787
+Liesberg,487,2788,2788
+Nenzlingen,188,2789,2789
+Roggenburg,471,2790,2790
+Röschenz,433,2791,2791
+Wahlen,547,2792,2792
+Zwingen,828,2793,2793
+Arisdorf,912,2821,2821
+Augst,187,2822,2822
+Bubendorf,361,2823,2823
+Frenkendorf,71,2824,2824
+Füllinsdorf,135,2825,2825
+Giebenach,5,2826,2826
+Hersberg,113,2827,2827
+Lausen,239,2828,2828
+Liestal,415,2829,2829
+Lupsingen,160,2830,2830
+Pratteln,326,2831,2831
+Ramlinsburg,189,2832,2832
+Seltisberg,123,2833,2833
+Ziefen,477,2834,2834
+Anwil,376,2841,2841
+Böckten,147,2842,2842
+Buckten,125,2843,2843
+Buus,736,2844,2844
+Diepflingen,0,2845,2845
+Gelterkinden,379,2846,2846
+Häfelfingen,279,2847,2847
+Hemmiken,717,2848,2848
+Itingen,25,2849,2849
+Känerkinden,45,2850,2850
+Kilchberg (BL),134,2851,2851
+Läufelfingen,520,2852,2852
+Maisprach,611,2853,2853
+Nusshof,85,2854,2854
+Oltingen,543,2855,2855
+Ormalingen,807,2856,2856
+Rickenbach (BL),319,2857,2857
+Rothenfluh,312,2858,2858
+Rümlingen,111,2859,2859
+Rünenberg,186,2860,2860
+Sissach,295,2861,2861
+Tecknau,98,2862,2862
+Tenniken,149,2863,2863
+Thürnen,279,2864,2864
+Wenslingen,305,2865,2865
+Wintersingen,333,2866,2866
+Wittinsburg,122,2867,2867
+Zeglingen,686,2868,2868
+Zunzgen,452,2869,2869
+Arboldswil,125,2881,2881
+Bennwil,547,2882,2882
+Bretzwil,699,2883,2883
+Diegten,1231,2884,2884
+Eptingen,1133,2885,2885
+Hölstein,421,2886,2886
+Lampenberg,209,2887,2887
+Langenbruck,1007,2888,2888
+Lauwil,301,2889,2889
+Liedertswil,148,2890,2890
+Niederdorf,354,2891,2891
+Oberdorf (BL),211,2892,2892
+Reigoldswil,544,2893,2893
+Titterten,358,2894,2894
+Waldenburg,307,2895,2895
+Gächlingen,781,2901,2901
+Löhningen,569,2903,2903
+Neunkirch,607,2904,2904
+Büttenhardt,11,2914,2914
+Dörflingen,307,2915,2915
+Lohn (SH),319,2917,2917
+Stetten (SH),277,2919,2919
+Thayngen,2397,2920,2920
+Bargen (SH),493,2931,2931
+Beringen,531,2932,2932
+Buchberg,407,2933,2933
+Merishausen,839,2936,2936
+Neuhausen am Rheinfall,221,2937,2937
+Rüdlingen,345,2938,2938
+Schaffhausen,332,2939,2939
+Beggingen,379,2951,2951
+Schleitheim,1716,2952,2952
+Siblingen,392,2953,2953
+Buch (SH),305,2961,2961
+Hemishofen,391,2962,2962
+Ramsen,1443,2963,2963
+Stein am Rhein,152,2964,2964
+Hallau,642,2971,2971
+Oberhallau,642,2972,2972
+Trasadingen,494,2973,2973
+Wilchingen,1552,2974,2974
+Herisau,2495,3001,3001
+Hundwil,2106,3002,3002
+Schönengrund,721,3003,3003
+Schwellbrunn,2172,3004,3004
+Stein (AR),1266,3005,3005
+Urnäsch,2904,3006,3006
+Waldstatt,995,3007,3007
+Bühler,596,3021,3021
+Gais,1693,3022,3022
+Speicher,761,3023,3023
+Teufen (AR),1518,3024,3024
+Trogen,735,3025,3025
+Grub (AR),362,3031,3031
+Heiden,732,3032,3032
+Lutzenberg,265,3033,3033
+Rehetobel,654,3034,3034
+Reute (AR),220,3035,3035
+Wald (AR),646,3036,3036
+Walzenhausen,622,3037,3037
+Wolfhalden,714,3038,3038
+Appenzell,2315,3101,3101
+Gonten,2809,3102,3102
+Rüte,3206,3103,3103
+Schlatt-Haslen,2872,3104,3104
+Schwende,1423,3105,3105
+Oberegg,1362,3111,3111
+Häggenschwil,1556,3201,3201
+Muolen,2062,3202,3202
+St. Gallen,1873,3203,3203
+Wittenbach,1354,3204,3204
+Eggersriet,982,3212,3212
+Andwil (SG),933,3441,3441
+Gaiserwald,1043,3442,3442
+Gossau (SG),3089,3443,3443
+Waldkirch,3724,3444,3444
+Berg (SG),843,3211,3211
+Goldach,190,3213,3213
+Mörschwil,1500,3214,3214
+Rorschach,0,3215,3215
+Rorschacherberg,598,3216,3216
+Steinach,271,3217,3217
+Tübach,178,3218,3218
+Untereggen,758,3219,3219
+Thal,633,3237,3237
+Au (SG),176,3231,3231
+Balgach,688,3232,3232
+Berneck,349,3233,3233
+Diepoldsau,1811,3234,3234
+Rheineck,115,3235,3235
+St. Margrethen,155,3236,3236
+Widnau,441,3238,3238
+Altstätten,4995,3251,3251
+Eichberg,364,3252,3252
+Marbach (SG),541,3253,3253
+Oberriet (SG),3527,3254,3254
+Rebstein,387,3255,3255
+Rüthi (SG),576,3256,3256
+Buchs (SG),688,3271,3271
+Gams,2448,3272,3272
+Grabs,3110,3273,3273
+Sennwald,2855,3274,3274
+Sevelen,1521,3275,3275
+Wartau,1322,3276,3276
+Bad Ragaz,956,3291,3291
+Flums,2919,3292,3292
+Mels,3201,3293,3293
+Pfäfers,1331,3294,3294
+Quarten,1190,3295,3295
+Sargans,937,3296,3296
+Vilters-Wangs,1471,3297,3297
+Walenstadt,1476,3298,3298
+Amden,1306,3311,3311
+Benken (SG),2526,3312,3312
+Kaltbrunn,1747,3313,3313
+Schänis,2954,3315,3315
+Weesen,350,3316,3316
+Schmerikon,385,3338,3338
+Uznach,563,3339,3339
+Rapperswil-Jona,1353,3340,3340
+Gommiswald,3255,3341,3341
+Eschenbach (SG),5038,3342,3342
+Ebnat-Kappel,2187,3352,3352
+Wildhaus-Alt St. Johann,3348,3359,3359
+Nesslau,5576,3360,3360
+Hemberg,2101,3372,3372
+Lichtensteig,120,3374,3374
+Oberhelfenschwil,1403,3375,3375
+Neckertal,4970,3378,3378
+Wattwil,4919,3379,3379
+Kirchberg (SG),4879,3392,3392
+Lütisburg,1406,3393,3393
+Mosnang,4436,3394,3394
+Bütschwil-Ganterschwil,2700,3395,3395
+Degersheim,1602,3401,3401
+Flawil,906,3402,3402
+Jonschwil,1177,3405,3405
+Oberuzwil,1646,3407,3407
+Uzwil,1022,3408,3408
+Niederbüren,2303,3422,3422
+Niederhelfenschwil,2967,3423,3423
+Oberbüren,2534,3424,3424
+Zuzwil (SG),1106,3426,3426
+Wil (SG),1954,3427,3427
+Mutten,188,3503,3503
+Vaz/Obervaz,899,3506,3506
+Lantsch/Lenz,396,3513,3513
+Schmitten (GR),103,3514,3514
+Bergün/Bravuogn,403,3521,3521
+Filisur,212,3522,3522
+Albula/Alvra,1502,3542,3542
+Brusio,309,3551,3551
+Poschiavo,1394,3561,3561
+Fürstenau,183,3633,3633
+Rothenbrunnen,165,3637,3637
+Scharans,319,3638,3638
+Sils im Domleschg,166,3640,3640
+Cazis,1661,3661,3661
+Flerden,514,3662,3662
+Masein,337,3663,3663
+Thusis,102,3668,3668
+Tschappina,529,3669,3669
+Urmein,438,3670,3670
+Domleschg,1829,3673,3673
+Avers,501,3681,3681
+Hinterrhein,232,3691,3691
+Nufenen,376,3693,3693
+Splügen,394,3694,3694
+Sufers,214,3695,3695
+Andeer,382,3701,3701
+Casti-Wergenstein,114,3703,3703
+Donat,902,3705,3705
+Lohn (GR),226,3707,3707
+Mathon,332,3708,3708
+Rongellen,60,3711,3711
+Zillis-Reischen,397,3712,3712
+Ferrera,22,3713,3713
+Bonaduz,387,3721,3721
+Domat/Ems,506,3722,3722
+Rhäzüns,238,3723,3723
+Felsberg,286,3731,3731
+Flims,616,3732,3732
+Tamins,372,3733,3733
+Trin,548,3734,3734
+Zernez,1175,3746,3746
+Samnaun,322,3752,3752
+Scuol,2356,3762,3762
+Valsot,1162,3764,3764
+Val Müstair,1672,3847,3847
+Haldenstein,334,3941,3941
+Trimmis,862,3945,3945
+Untervaz,1210,3946,3946
+Zizers,339,3947,3947
+Fläsch,300,3951,3951
+Jenins,312,3952,3952
+Maienfeld,1220,3953,3953
+Malans,370,3954,3954
+Landquart,1001,3955,3955
+Bever,284,3781,3781
+Celerina/Schlarigna,82,3782,3782
+Madulain,149,3783,3783
+Pontresina,56,3784,3784
+La Punt-Chamues-ch,305,3785,3785
+Samedan,255,3786,3786
+St. Moritz,94,3787,3787
+S-chanf,474,3788,3788
+Sils im Engadin/Segl,242,3789,3789
+Silvaplana,105,3790,3790
+Zuoz,215,3791,3791
+Bregaglia,607,3792,3792
+Buseno,13,3804,3804
+Castaneda,0,3805,3805
+Rossa,0,3808,3808
+Santa Maria in Calanca,12,3810,3810
+Lostallo,140,3821,3821
+Mesocco,153,3822,3822
+Soazza,243,3823,3823
+Cama,24,3831,3831
+Grono,21,3832,3832
+Leggia,70,3833,3833
+Roveredo (GR),68,3834,3834
+San Vittore,284,3835,3835
+Verdabbio,24,3836,3836
+Calanca,201,3837,3837
+Chur,1137,3901,3901
+Churwalden,1151,3911,3911
+Arosa,1535,3921,3921
+Maladers,163,3926,3926
+Tschiertschen-Praden,295,3932,3932
+Davos,1857,3851,3851
+Fideris,524,3861,3861
+Furna,584,3862,3862
+Jenaz,781,3863,3863
+Conters im Prättigau,239,3881,3881
+Küblis,407,3882,3882
+Grüsch,1687,3961,3961
+Schiers,1321,3962,3962
+Seewis im Prättigau,946,3972,3972
+Falera,714,3572,3572
+Laax,216,3575,3575
+Sagogn,99,3581,3581
+Schluein,159,3582,3582
+Vals,622,3603,3603
+Andiast,506,3611,3611
+Waltensburg/Vuorz,500,3616,3616
+Lumnezia,3756,3618,3618
+Ilanz/Glion,2986,3619,3619
+Safiental,2785,3672,3672
+Breil/Brigels,905,3981,3981
+Disentis/Mustér,778,3982,3982
+Medel (Lucmagn),364,3983,3983
+Sumvitg,1019,3985,3985
+Tujetsch,408,3986,3986
+Trun,615,3987,3987
+Aarau,228,4001,4001
+Biberstein,144,4002,4002
+Buchs (AG),47,4003,4003
+Densbüren,986,4004,4004
+Erlinsbach (AG),532,4005,4005
+Gränichen,429,4006,4006
+Hirschthal,98,4007,4007
+Küttigen,299,4008,4008
+Muhen,446,4009,4009
+Oberentfelden,265,4010,4010
+Suhr,183,4012,4012
+Unterentfelden,0,4013,4013
+Baden,54,4021,4021
+Bellikon,340,4022,4022
+Bergdietikon,384,4023,4023
+Birmenstorf (AG),239,4024,4024
+Ennetbaden,4,4026,4026
+Fislisbach,198,4027,4027
+Freienwil,241,4028,4028
+Gebenstorf,201,4029,4029
+Killwangen,86,4030,4030
+Künten,202,4031,4031
+Mägenwil,436,4032,4032
+Mellingen,115,4033,4033
+Neuenhof,16,4034,4034
+Niederrohrdorf,255,4035,4035
+Oberrohrdorf,117,4037,4037
+Obersiggenthal,359,4038,4038
+Remetschwil,383,4039,4039
+Spreitenbach,186,4040,4040
+Stetten (AG),285,4041,4041
+Turgi,0,4042,4042
+Untersiggenthal,344,4044,4044
+Wettingen,185,4045,4045
+Wohlenschwil,126,4046,4046
+Würenlingen,449,4047,4047
+Würenlos,380,4048,4048
+Ehrendingen,838,4049,4049
+Arni (AG),231,4061,4061
+Berikon,327,4062,4062
+Bremgarten (AG),295,4063,4063
+Büttikon,243,4064,4064
+Dottikon,387,4065,4065
+Eggenwil,263,4066,4066
+Fischbach-Göslikon,261,4067,4067
+Hägglingen,814,4068,4068
+Jonen,377,4071,4071
+Niederwil (AG),278,4072,4072
+Oberlunkhofen,295,4073,4073
+Oberwil-Lieli,461,4074,4074
+Rudolfstetten-Friedlisberg,330,4075,4075
+Sarmenstorf,634,4076,4076
+Tägerig,99,4077,4077
+Uezwil,285,4078,4078
+Unterlunkhofen,483,4079,4079
+Villmergen,644,4080,4080
+Widen,173,4081,4081
+Wohlen (AG),472,4082,4082
+Zufikon,81,4083,4083
+Islisberg,295,4084,4084
+Auenstein,44,4091,4091
+Birr,43,4092,4092
+Birrhard,135,4093,4093
+Bözen,376,4094,4094
+Brugg,434,4095,4095
+Effingen,495,4096,4096
+Elfingen,181,4097,4097
+Habsburg,161,4099,4099
+Hausen (AG),53,4100,4100
+Lupfig,323,4104,4104
+Mandach,286,4105,4105
+Mönthal,104,4106,4106
+Mülligen,112,4107,4107
+Remigen,149,4110,4110
+Riniken,114,4111,4111
+Rüfenach,436,4112,4112
+Scherz,111,4113,4113
+Schinznach-Bad,0,4114,4114
+Thalheim (AG),603,4117,4117
+Veltheim (AG),340,4120,4120
+Villigen,188,4121,4121
+Villnachern,109,4122,4122
+Windisch,4,4123,4123
+Bözberg,1044,4124,4124
+Schinznach,800,4125,4125
+Beinwil am See,217,4131,4131
+Birrwil,200,4132,4132
+Burg (AG),84,4133,4133
+Dürrenäsch,218,4134,4134
+Gontenschwil,651,4135,4135
+Holziken,155,4136,4136
+Leimbach (AG),224,4137,4137
+Leutwil,344,4138,4138
+Menziken,242,4139,4139
+Oberkulm,564,4140,4140
+Reinach (AG),633,4141,4141
+Schlossrued,989,4142,4142
+Schmiedrued,961,4143,4143
+Schöftland,119,4144,4144
+Teufenthal (AG),442,4145,4145
+Unterkulm,589,4146,4146
+Zetzwil,379,4147,4147
+Eiken,136,4161,4161
+Frick,310,4163,4163
+Gansingen,604,4164,4164
+Gipf-Oberfrick,1097,4165,4165
+Herznach,1028,4166,4166
+Hornussen,610,4167,4167
+Kaisten,922,4169,4169
+Laufenburg,992,4170,4170
+Münchwilen (AG),37,4172,4172
+Oberhof,595,4173,4173
+Oeschgen,307,4175,4175
+Schwaderloch,49,4176,4176
+Sisseln,14,4177,4177
+Ueken,318,4179,4179
+Wittnau,297,4181,4181
+Wölflinswil,965,4182,4182
+Zeihen,592,4183,4183
+Mettauertal,1140,4184,4184
+Ammerswil,87,4191,4191
+Boniswil,98,4192,4192
+Brunegg,26,4193,4193
+Dintikon,266,4194,4194
+Egliswil,327,4195,4195
+Fahrwangen,219,4196,4196
+Hallwil,118,4197,4197
+Hendschiken,273,4198,4198
+Holderbank (AG),31,4199,4199
+Hunzenschwil,93,4200,4200
+Lenzburg,162,4201,4201
+Meisterschwanden,281,4202,4202
+Möriken-Wildegg,478,4203,4203
+Niederlenz,172,4204,4204
+Othmarsingen,148,4205,4205
+Rupperswil,143,4206,4206
+Schafisheim,498,4207,4207
+Seengen,887,4208,4208
+Seon,843,4209,4209
+Staufen,301,4210,4210
+Abtwil,691,4221,4221
+Aristau,939,4222,4222
+Auw,1365,4223,4223
+Beinwil (Freiamt),1520,4224,4224
+Besenbüren,141,4226,4226
+Bettwil,499,4227,4227
+Boswil,1308,4228,4228
+Bünzen,433,4229,4229
+Buttwil,345,4230,4230
+Dietwil,641,4231,4231
+Geltwil,339,4232,4232
+Kallern,387,4233,4233
+Merenschwand,1904,4234,4234
+Mühlau,1067,4235,4235
+Muri (AG),949,4236,4236
+Oberrüti,1079,4237,4237
+Rottenschwil,482,4238,4238
+Sins,2775,4239,4239
+Waltenschwil,845,4240,4240
+Hellikon,586,4251,4251
+Kaiseraugst,43,4252,4252
+Magden,395,4253,4253
+Möhlin,918,4254,4254
+Mumpf,46,4255,4255
+Obermumpf,399,4256,4256
+Olsberg,214,4257,4257
+Rheinfelden,348,4258,4258
+Schupfart,357,4259,4259
+Stein (AG),0,4260,4260
+Wallbach,218,4261,4261
+Wegenstetten,606,4262,4262
+Zeiningen,264,4263,4263
+Zuzgen,666,4264,4264
+Aarburg,128,4271,4271
+Attelwil,345,4272,4272
+Bottenwil,311,4273,4273
+Brittnau,865,4274,4274
+Kirchleerau,272,4275,4275
+Kölliken,341,4276,4276
+Moosleerau,341,4277,4277
+Murgenthal,865,4279,4279
+Oftringen,1048,4280,4280
+Reitnau,647,4281,4281
+Rothrist,545,4282,4282
+Safenwil,433,4283,4283
+Staffelbach,673,4284,4284
+Strengelbach,262,4285,4285
+Uerkheim,1038,4286,4286
+Vordemwald,364,4287,4287
+Wiliberg,187,4288,4288
+Zofingen,270,4289,4289
+Baldingen,406,4301,4301
+Böbikon,305,4302,4302
+Böttstein,192,4303,4303
+Döttingen,118,4304,4304
+Endingen,1172,4305,4305
+Fisibach,303,4306,4306
+Full-Reuenthal,289,4307,4307
+Kaiserstuhl,0,4308,4308
+Klingnau,139,4309,4309
+Koblenz,99,4310,4310
+Leibstadt,498,4311,4311
+Lengnau (AG),1448,4312,4312
+Leuggern,885,4313,4313
+Mellikon,109,4314,4314
+Rekingen (AG),21,4315,4315
+Rietheim,268,4316,4316
+Rümikon,14,4317,4317
+Schneisingen,518,4318,4318
+Siglistorf,327,4319,4319
+Tegerfelden,945,4320,4320
+Wislikofen,572,4322,4322
+Bad Zurzach,68,4323,4323
+Arbon,240,4401,4401
+Dozwil,267,4406,4406
+Egnach,1974,4411,4411
+Hefenhofen,536,4416,4416
+Horn,180,4421,4421
+Kesswil,185,4426,4426
+Roggwil (TG),1472,4431,4431
+Romanshorn,480,4436,4436
+Salmsach,226,4441,4441
+Sommeri,538,4446,4446
+Uttwil,366,4451,4451
+Amriswil,2378,4461,4461
+Basadingen-Schlattingen,556,4536,4536
+Diessenhofen,191,4545,4545
+Schlatt (TG),406,4546,4546
+Felben-Wellhausen,590,4561,4561
+Frauenfeld,849,4566,4566
+Gachnang,995,4571,4571
+Hüttlingen,774,4590,4590
+Matzingen,672,4591,4591
+Neunforn,624,4601,4601
+Stettfurt,390,4606,4606
+Thundorf,1426,4611,4611
+Uesslingen-Buch,1468,4616,4616
+Warth-Weiningen,828,4621,4621
+Berlingen,19,4801,4801
+Eschenz,948,4806,4806
+Herdern,701,4811,4811
+Homburg,2717,4816,4816
+Hüttwilen,671,4821,4821
+Mammern,112,4826,4826
+Müllheim,304,4831,4831
+Pfyn,851,4841,4841
+Steckborn,402,4864,4864
+Wagenhausen,728,4871,4871
+Altnau,510,4641,4641
+Bottighofen,74,4643,4643
+Ermatingen,197,4646,4646
+Gottlieben,0,4651,4651
+Güttingen,1199,4656,4656
+Kemmental,2193,4666,4666
+Kreuzlingen,163,4671,4671
+Langrickenbach,1713,4681,4681
+Lengwil,1052,4683,4683
+Münsterlingen,320,4691,4691
+Tägerwilen,409,4696,4696
+Wäldi,971,4701,4701
+Raperswilen,477,4846,4846
+Salenstein,251,4851,4851
+Aadorf,1293,4551,4551
+Bettwiesen,517,4716,4716
+Bichelsee-Balterswil,1063,4721,4721
+Braunau,1158,4723,4723
+Eschlikon,392,4724,4724
+Fischingen,2825,4726,4726
+Lommis,594,4741,4741
+Münchwilen (TG),880,4746,4746
+Rickenbach (TG),66,4751,4751
+Sirnach,1445,4761,4761
+Tobel-Tägerschen,872,4776,4776
+Wängi,1933,4781,4781
+Wilen (TG),148,4786,4786
+Bischofszell,1114,4471,4471
+Erlen,1730,4476,4476
+Hauptwil-Gottshaus,1410,4486,4486
+Hohentannen,1137,4495,4495
+Kradolf-Schönenberg,887,4501,4501
+Sulgen,834,4506,4506
+Zihlschlacht-Sitterdorf,1144,4511,4511
+Affeltrangen,2219,4711,4711
+Schönholzerswilen,1687,4756,4756
+Wuppenau,1647,4791,4791
+Amlikon-Bissegg,1767,4881,4881
+Berg (TG),1158,4891,4891
+Birwinken,1193,4901,4901
+Bürglen (TG),778,4911,4911
+Bussnang,2591,4921,4921
+Märstetten,784,4941,4941
+Weinfelden,602,4946,4946
+Wigoltingen,1656,4951,4951
+Arbedo-Castione,0,5001,5001
+Bellinzona,11,5002,5002
+Cadenazzo,139,5003,5003
+Camorino,2,5004,5004
+Giubiasco,205,5005,5005
+Gnosca,0,5006,5006
+Gorduno,20,5007,5007
+Gudo,48,5008,5008
+Isone,189,5009,5009
+Lumino,0,5010,5010
+Moleno,0,5012,5012
+Monte Carasso,0,5013,5013
+Pianezzo,0,5014,5014
+Preonzo,61,5015,5015
+Sant'Antonino,323,5017,5017
+Sant'Antonio,5,5018,5018
+Sementina,51,5019,5019
+Acquarossa,838,5048,5048
+Blenio,1125,5049,5049
+Serravalle,354,5050,5050
+Airolo,535,5061,5061
+Bedretto,0,5063,5063
+Bodio,0,5064,5064
+Dalpe,94,5071,5071
+Faido,451,5072,5072
+Giornico,41,5073,5073
+Personico,49,5076,5076
+Pollegio,95,5077,5077
+Prato (Leventina),101,5078,5078
+Quinto,558,5079,5079
+Sobrio,27,5081,5081
+Ascona,0,5091,5091
+Brione (Verzasca),11,5095,5095
+Brione sopra Minusio,27,5096,5096
+Brissago,0,5097,5097
+Corippo,0,5102,5102
+Frasco,45,5105,5105
+Gordola,3,5108,5108
+Gresso,0,5109,5109
+Lavertezzo,0,5112,5112
+Locarno,447,5113,5113
+Losone,0,5115,5115
+Mergoscia,0,5117,5117
+Minusio,0,5118,5118
+Mosogno,2,5119,5119
+Muralto,0,5120,5120
+Orselina,0,5121,5121
+Ronco sopra Ascona,0,5125,5125
+Sonogno,72,5129,5129
+Tenero-Contra,0,5131,5131
+Vergeletto,0,5132,5132
+Vogorno,24,5135,5135
+Onsernone,20,5136,5136
+Isorno,0,5137,5137
+Cugnasco-Gerra,137,5138,5138
+Terre di Pedemonte,4,5396,5396
+Centovalli,45,5397,5397
+Gambarogno,45,5398,5398
+Agno,54,5141,5141
+Aranno,16,5143,5143
+Arogno,60,5144,5144
+Astano,38,5146,5146
+Bedano,21,5148,5148
+Bedigliora,11,5149,5149
+Bioggio,73,5151,5151
+Bissone,0,5154,5154
+Brusino Arsizio,0,5160,5160
+Cademario,19,5161,5161
+Cadempino,0,5162,5162
+Canobbio,0,5167,5167
+Caslano,0,5171,5171
+Comano,2,5176,5176
+Croglio,26,5178,5178
+Cureglia,0,5180,5180
+Curio,6,5181,5181
+Grancia,0,5186,5186
+Gravesano,0,5187,5187
+Lamone,0,5189,5189
+Lugano,210,5192,5192
+Magliaso,2,5193,5193
+Manno,0,5194,5194
+Maroggia,0,5195,5195
+Massagno,0,5196,5196
+Melano,0,5197,5197
+Melide,0,5198,5198
+Mezzovico-Vira,33,5199,5199
+Miglieglia,27,5200,5200
+Monteggio,0,5202,5202
+Morcote,0,5203,5203
+Muzzano,12,5205,5205
+Neggio,0,5206,5206
+Novaggio,51,5207,5207
+Origlio,24,5208,5208
+Paradiso,0,5210,5210
+Ponte Capriasca,24,5212,5212
+Ponte Tresa,0,5213,5213
+Porza,6,5214,5214
+Pura,0,5216,5216
+Rovio,0,5219,5219
+Savosa,0,5221,5221
+Sessa,74,5222,5222
+Sorengo,0,5225,5225
+Capriasca,126,5226,5226
+Torricella-Taverne,30,5227,5227
+Vernate,0,5230,5230
+Vezia,50,5231,5231
+Vico Morcote,0,5233,5233
+Collina d'Oro,0,5236,5236
+Alto Malcantone,318,5237,5237
+Monteceneri,94,5238,5238
+Balerna,0,5242,5242
+Castel San Pietro,71,5249,5249
+Chiasso,10,5250,5250
+Coldrerio,117,5251,5251
+Mendrisio,127,5254,5254
+Morbio Inferiore,0,5257,5257
+Novazzano,290,5260,5260
+Riva San Vitale,7,5263,5263
+Stabio,16,5266,5266
+Vacallo,0,5268,5268
+Breggia,243,5269,5269
+Biasca,276,5281,5281
+Claro,202,5282,5282
+Cresciano,0,5283,5283
+Iragna,127,5284,5284
+Lodrino,110,5285,5285
+Osogna,12,5286,5286
+Bosco/Gurin,75,5304,5304
+Campo (Vallemaggia),36,5307,5307
+Cerentino,45,5309,5309
+Cevio,56,5310,5310
+Linescio,10,5315,5315
+Maggia,124,5317,5317
+Lavizzara,279,5323,5323
+Avegno Gordevio,424,5324,5324
+Aigle,114,5401,5401
+Bex,1044,5402,5402
+Chessel,227,5403,5403
+Corbeyrier,119,5404,5404
+Gryon,46,5405,5405
+Lavey-Morcles,245,5406,5406
+Leysin,220,5407,5407
+Noville,464,5408,5408
+Ollon,1260,5409,5409
+Ormont-Dessous,892,5410,5410
+Ormont-Dessus,547,5411,5411
+Rennaz,0,5412,5412
+Roche (VD),181,5413,5413
+Villeneuve (VD),45,5414,5414
+Yvorne,191,5415,5415
+Avenches,903,5451,5451
+Cudrefin,647,5456,5456
+Faoug,364,5458,5458
+Vully-les-Lacs,905,5464,5464
+Brenles,266,5662,5662
+Bussy-sur-Moudon,147,5663,5663
+Chavannes-sur-Moudon,618,5665,5665
+Chesalles-sur-Moudon,225,5666,5666
+Cremin,147,5668,5668
+Curtilles,321,5669,5669
+Dompierre (VD),136,5671,5671
+Forel-sur-Lucens,583,5672,5672
+Hermenches,298,5673,5673
+Lovatens,272,5674,5674
+Lucens,140,5675,5675
+Moudon,833,5678,5678
+Prévonloup,69,5683,5683
+Rossenges,67,5684,5684
+Sarzens,268,5686,5686
+Syens,55,5688,5688
+Villars-le-Comte,228,5690,5690
+Vucherens,188,5692,5692
+Carrouge (VD),465,5782,5782
+Corcelles-le-Jorat,914,5785,5785
+Ropraz,382,5798,5798
+Vulliens,503,5803,5803
+Champtauroz,172,5812,5812
+Chevroux,114,5813,5813
+Corcelles-près-Payerne,1587,5816,5816
+Grandcour,766,5817,5817
+Henniez,124,5819,5819
+Missy,700,5821,5821
+Payerne,1319,5822,5822
+Trey,369,5827,5827
+Treytorrens (Payerne),243,5828,5828
+Villarzel,516,5830,5830
+Valbroye,2935,5831,5831
+Bettens,492,5471,5471
+Bournens,165,5472,5472
+Boussens,282,5473,5473
+Daillens,287,5480,5480
+Lussery-Villars,193,5487,5487
+Mex (VD),78,5489,5489
+Penthalaz,6,5495,5495
+Penthaz,120,5496,5496
+Sullens,0,5501,5501
+Vufflens-la-Ville,156,5503,5503
+Assens,766,5511,5511
+Bercher,51,5512,5512
+Bioley-Orjulaz,210,5513,5513
+Bottens,587,5514,5514
+Bretigny-sur-Morrens,27,5515,5515
+Cugy (VD),82,5516,5516
+Echallens,518,5518,5518
+Essertines-sur-Yverdon,644,5520,5520
+Etagnières,617,5521,5521
+Fey,287,5522,5522
+Froideville,401,5523,5523
+Morrens (VD),265,5527,5527
+Oulens-sous-Echallens,94,5529,5529
+Pailly,444,5530,5530
+Penthéréaz,134,5531,5531
+Poliez-Pittet,344,5533,5533
+Rueyres,183,5534,5534
+Saint-Barthélemy (VD),302,5535,5535
+Villars-le-Terroir,490,5537,5537
+Vuarrens,883,5539,5539
+Montilliez,1038,5540,5540
+Goumoëns,338,5541,5541
+Boulens,307,5661,5661
+Ogens,132,5680,5680
+Montanaire,2623,5693,5693
+Jorat-Menthue,1035,5804,5804
+Oppens,225,5923,5923
+Bonvillars,162,5551,5551
+Bullet,481,5552,5552
+Champagne,95,5553,5553
+Concise,233,5554,5554
+Corcelles-près-Concise,246,5555,5555
+Fiez,137,5556,5556
+Fontaines-sur-Grandson,137,5557,5557
+Giez,165,5559,5559
+Grandevent,86,5560,5560
+Grandson,358,5561,5561
+Mauborget,243,5562,5562
+Mutrux,247,5563,5563
+Novalles,271,5564,5564
+Onnens (VD),70,5565,5565
+Provence,1421,5566,5566
+Sainte-Croix,1471,5568,5568
+Tévenon,385,5571,5571
+L'Abergement,53,5741,5741
+Agiez,336,5742,5742
+Arnex-sur-Orbe,391,5743,5743
+Ballaigues,759,5744,5744
+Baulmes,400,5745,5745
+Bavois,489,5746,5746
+Bofflens,507,5747,5747
+Bretonnières,421,5748,5748
+Chavornay,536,5749,5749
+Les Clées,157,5750,5750
+Corcelles-sur-Chavornay,134,5751,5751
+Croy,34,5752,5752
+Juriens,360,5754,5754
+Lignerolle,469,5755,5755
+Montcherand,312,5756,5756
+Orbe,549,5757,5757
+La Praz,288,5758,5758
+Premier,433,5759,5759
+Rances,657,5760,5760
+Romainmôtier-Envy,226,5761,5761
+Sergey,162,5762,5762
+Valeyres-sous-Rances,492,5763,5763
+Vallorbe,638,5764,5764
+Vaulion,422,5765,5765
+Vuiteboeuf,308,5766,5766
+L'Abbaye,558,5871,5871
+Le Chenit,1689,5872,5872
+Le Lieu,716,5873,5873
+Belmont-sur-Yverdon,270,5902,5902
+Bioley-Magnoux,194,5903,5903
+Chamblon,0,5904,5904
+Champvent,667,5905,5905
+Chavannes-le-Chêne,136,5907,5907
+Chêne-Pâquier,32,5908,5908
+Cheseaux-Noréaz,131,5909,5909
+Cronay,361,5910,5910
+Cuarny,197,5911,5911
+Démoret,133,5912,5912
+Donneloye,575,5913,5913
+Ependes (VD),34,5914,5914
+Essert-Pittet,5,5915,5915
+Mathod,762,5919,5919
+Molondin,280,5921,5921
+Montagny-près-Yverdon,184,5922,5922
+Orges,41,5924,5924
+Orzens,106,5925,5925
+Pomy,398,5926,5926
+Rovray,669,5928,5928
+Suchy,315,5929,5929
+Suscévaz,132,5930,5930
+Treycovagnes,0,5931,5931
+Ursins,97,5932,5932
+Valeyres-sous-Montagny,155,5933,5933
+Valeyres-sous-Ursins,256,5934,5934
+Villars-Epeney,64,5935,5935
+Vugelles-La Mothe,180,5937,5937
+Yverdon-les-Bains,270,5938,5938
+Yvonand,464,5939,5939
+Cheseaux-sur-Lausanne,289,5582,5582
+Epalinges,44,5584,5584
+Jouxtens-Mézery,0,5585,5585
+Lausanne,429,5586,5586
+Le Mont-sur-Lausanne,219,5587,5587
+Romanel-sur-Lausanne,0,5592,5592
+Belmont-sur-Lausanne,152,5581,5581
+Paudex,0,5588,5588
+Pully,287,5590,5590
+Chexbres,102,5601,5601
+Forel (Lavaux),1528,5604,5604
+Lutry,89,5606,5606
+Puidoux,2154,5607,5607
+Rivaz,0,5609,5609
+Saint-Saphorin (Lavaux),10,5610,5610
+Savigny,1154,5611,5611
+Bourg-en-Lavaux,419,5613,5613
+Essertes,309,5788,5788
+Ferlens (VD),118,5789,5789
+Maracon,182,5790,5790
+Mézières (VD),357,5791,5791
+Montpreveyres,115,5792,5792
+Servion,328,5799,5799
+Oron,2968,5805,5805
+Apples,241,5421,5421
+Aubonne,322,5422,5422
+Ballens,425,5423,5423
+Berolle,675,5424,5424
+Bière,1244,5425,5425
+Bougy-Villars,0,5426,5426
+Féchy,40,5427,5427
+Gimel,788,5428,5428
+Mollens (VD),617,5431,5431
+Montherod,238,5432,5432
+Saint-Livres,528,5435,5435
+Saint-Oyens,128,5436,5436
+Saubraz,71,5437,5437
+La Chaux (Cossonay),282,5474,5474
+Chavannes-le-Veyron,506,5475,5475
+Chevilly,176,5476,5476
+Cossonay,295,5477,5477
+Cottens (VD),393,5478,5478
+Cuarnens,227,5479,5479
+Dizy,248,5481,5481
+Eclépens,528,5482,5482
+Ferreyres,252,5483,5483
+Gollion,382,5484,5484
+Grancy,403,5485,5485
+L'Isle,874,5486,5486
+Mauraz,91,5488,5488
+Moiry,294,5490,5490
+Mont-la-Ville,519,5491,5491
+Montricher,1080,5492,5492
+Orny,432,5493,5493
+Pampigny,1311,5494,5494
+Pompaples,284,5497,5497
+La Sarraz,199,5498,5498
+Senarclens,107,5499,5499
+Sévery,379,5500,5500
+Aclens,271,5621,5621
+Bremblens,325,5622,5622
+Buchillon,0,5623,5623
+Bussy-Chardonney,178,5625,5625
+Chigny,0,5628,5628
+Clarmont,396,5629,5629
+Denens,177,5631,5631
+Denges,0,5632,5632
+Echandens,0,5633,5633
+Echichens,688,5634,5634
+Etoy,0,5636,5636
+Lavigny,57,5637,5637
+Lonay,0,5638,5638
+Lully (VD),33,5639,5639
+Lussy-sur-Morges,0,5640,5640
+Morges,0,5642,5642
+Préverenges,0,5643,5643
+Reverolle,21,5644,5644
+Romanel-sur-Morges,88,5645,5645
+Saint-Prex,40,5646,5646
+Tolochenaz,2,5649,5649
+Vaux-sur-Morges,286,5650,5650
+Villars-sous-Yens,261,5652,5652
+Vufflens-le-Château,0,5653,5653
+Vullierens,180,5654,5654
+Yens,386,5655,5655
+Allaman,0,5851,5851
+Longirod,805,5429,5429
+Marchissy,491,5430,5430
+Saint-George,256,5434,5434
+Arnex-sur-Nyon,44,5701,5701
+Arzier-Le Muids,354,5702,5702
+Bassins,802,5703,5703
+Begnins,76,5704,5704
+Bogis-Bossey,152,5705,5705
+Borex,25,5706,5706
+Chavannes-de-Bogis,46,5707,5707
+Chavannes-des-Bois,0,5708,5708
+Chéserex,134,5709,5709
+Coinsins,80,5710,5710
+Commugny,125,5711,5711
+Coppet,0,5712,5712
+Crans-près-Céligny,254,5713,5713
+Crassier,38,5714,5714
+Duillier,91,5715,5715
+Eysins,60,5716,5716
+Founex,82,5717,5717
+Genolier,381,5718,5718
+Gingins,419,5719,5719
+Givrins,425,5720,5720
+Gland,247,5721,5721
+Grens,354,5722,5722
+Mies,0,5723,5723
+Nyon,158,5724,5724
+Prangins,161,5725,5725
+La Rippe,478,5726,5726
+Saint-Cergue,0,5727,5727
+Signy-Avenex,100,5728,5728
+Tannay,79,5729,5729
+Trélex,469,5730,5730
+Le Vaud,359,5731,5731
+Vich,0,5732,5732
+Bursinel,0,5852,5852
+Bursins,194,5853,5853
+Burtigny,388,5854,5854
+Dully,0,5855,5855
+Essertines-sur-Rolle,512,5856,5856
+Gilly,289,5857,5857
+Luins,0,5858,5858
+Mont-sur-Rolle,194,5859,5859
+Perroy,83,5860,5860
+Rolle,4,5861,5861
+Tartegnin,0,5862,5862
+Vinzel,5,5863,5863
+Crissier,0,5583,5583
+Prilly,9,5589,5589
+Renens (VD),0,5591,5591
+Bussigny,17,5624,5624
+Chavannes-près-Renens,0,5627,5627
+Ecublens (VD),0,5635,5635
+Saint-Sulpice (VD),0,5648,5648
+Villars-Sainte-Croix,53,5651,5651
+Château-d'Oex,3296,5841,5841
+Rossinière,520,5842,5842
+Rougemont,1111,5843,5843
+Blonay,336,5881,5881
+Chardonne,481,5882,5882
+Corseaux,0,5883,5883
+Corsier-sur-Vevey,344,5884,5884
+Jongny,233,5885,5885
+Montreux,437,5886,5886
+Saint-Légier-La Chiésaz,214,5888,5888
+La Tour-de-Peilz,67,5889,5889
+Vevey,5,5890,5890
+Veytaux,0,5891,5891
+Brig-Glis,344,6002,6002
+Eggerberg,39,6004,6004
+Naters,443,6007,6007
+Ried-Brig,434,6008,6008
+Simplon,261,6009,6009
+Termen,37,6010,6010
+Zwischbergen,32,6011,6011
+Ardon,44,6021,6021
+Chamoson,39,6022,6022
+Conthey,470,6023,6023
+Nendaz,1193,6024,6024
+Vétroz,270,6025,6025
+Bagnes,1562,6031,6031
+Bourg-Saint-Pierre,46,6032,6032
+Liddes,643,6033,6033
+Orsières,995,6034,6034
+Sembrancher,293,6035,6035
+Vollèges,680,6036,6036
+Bellwald,108,6052,6052
+Binn,125,6054,6054
+Blitzingen,90,6055,6055
+Ernen,361,6056,6056
+Fiesch,60,6057,6057
+Fieschertal,137,6058,6058
+Lax,208,6061,6061
+Niederwald,42,6064,6064
+Grafschaft,177,6073,6073
+Münster-Geschinen,171,6074,6074
+Reckingen-Gluringen,271,6075,6075
+Obergoms,557,6076,6076
+Les Agettes,151,6081,6081
+Ayent,250,6082,6082
+Evolène,969,6083,6083
+Hérémence,274,6084,6084
+Saint-Martin (VS),157,6087,6087
+Vex,187,6089,6089
+Mont-Noble,328,6090,6090
+Agarn,209,6101,6101
+Albinen,66,6102,6102
+Ergisch,132,6104,6104
+Inden,48,6109,6109
+Leuk,729,6110,6110
+Leukerbad,125,6111,6111
+Oberems,90,6112,6112
+Salgesch,175,6113,6113
+Varen,54,6116,6116
+Guttet-Feschel,38,6117,6117
+Gampel-Bratsch,165,6118,6118
+Turtmann-Unterems,589,6119,6119
+Bovernier,0,6131,6131
+Charrat,49,6132,6132
+Fully,256,6133,6133
+Isérables,233,6134,6134
+Leytron,175,6135,6135
+Martigny,581,6136,6136
+Martigny-Combe,229,6137,6137
+Riddes,80,6139,6139
+Saillon,108,6140,6140
+Saxon,62,6141,6141
+Trient,27,6142,6142
+Champéry,398,6151,6151
+Collombey-Muraz,1751,6152,6152
+Monthey,313,6153,6153
+Port-Valais,320,6154,6154
+Saint-Gingolph,13,6155,6155
+Troistorrents,428,6156,6156
+Val-d'Illiez,704,6157,6157
+Vionnaz,259,6158,6158
+Vouvry,908,6159,6159
+Bister,75,6172,6172
+Bitsch,55,6173,6173
+Grengiols,511,6177,6177
+Riederalp,166,6181,6181
+Ausserberg,51,6191,6191
+Blatten,67,6192,6192
+Bürchen,270,6193,6193
+Eischoll,147,6194,6194
+Ferden,31,6195,6195
+Kippel,31,6197,6197
+Niedergesteln,37,6198,6198
+Raron,225,6199,6199
+Unterbäch,145,6201,6201
+Wiler (Lötschen),79,6202,6202
+Mörel-Filet,79,6203,6203
+Steg-Hohtenn,65,6204,6204
+Bettmeralp,304,6205,6205
+Collonges,239,6211,6211
+Dorénaz,128,6212,6212
+Evionnaz,125,6213,6213
+Finhaut,20,6214,6214
+Massongex,325,6215,6215
+Saint-Maurice,203,6217,6217
+Salvan,83,6218,6218
+Vernayaz,120,6219,6219
+Vérossaz,241,6220,6220
+Chalais,160,6232,6232
+Chermignon,168,6234,6234
+Chippis,99,6235,6235
+Grône,100,6238,6238
+Icogne,85,6239,6239
+Lens,301,6240,6240
+Miège,54,6241,6241
+Mollens (VS),23,6242,6242
+Montana,29,6243,6243
+Randogne,73,6244,6244
+Saint-Léonard,71,6246,6246
+Sierre,130,6248,6248
+Venthône,76,6249,6249
+Veyras,0,6250,6250
+Anniviers,594,6252,6252
+Arbaz,129,6261,6261
+Grimisuat,152,6263,6263
+Savièse,439,6265,6265
+Sion,444,6266,6266
+Veysonnaz,98,6267,6267
+Baltschieder,35,6281,6281
+Eisten,36,6282,6282
+Embd,167,6283,6283
+Grächen,130,6285,6285
+Lalden,79,6286,6286
+Randa,0,6287,6287
+Saas-Almagell,87,6288,6288
+Saas-Balen,36,6289,6289
+Saas-Fee,43,6290,6290
+Saas-Grund,131,6291,6291
+St. Niklaus,337,6292,6292
+Stalden (VS),113,6293,6293
+Staldenried,49,6294,6294
+Täsch,13,6295,6295
+Törbel,189,6296,6296
+Visp,429,6297,6297
+Visperterminen,133,6298,6298
+Zeneggen,177,6299,6299
+Zermatt,62,6300,6300
+Bevaix,249,6402,6402
+Boudry,190,6404,6404
+Corcelles-Cormondrèche,161,6407,6407
+Cortaillod,96,6408,6408
+Fresens,318,6409,6409
+Gorgier,499,6410,6410
+Montalchez,589,6411,6411
+Peseux,0,6412,6412
+Saint-Aubin-Sauges,200,6414,6414
+Vaumarcus,83,6415,6415
+Milvignes,374,6416,6416
+La Chaux-de-Fonds,4361,6421,6421
+Les Planchettes,499,6422,6422
+La Sagne,1741,6423,6423
+Les Brenets,726,6431,6431
+La Brévine,3290,6432,6432
+Brot-Plamboz,1758,6433,6433
+Le Cerneux-Péquignot,1201,6434,6434
+La Chaux-du-Milieu,1179,6435,6435
+Le Locle,1275,6436,6436
+Les Ponts-de-Martel,1943,6437,6437
+Cornaux,370,6451,6451
+Cressier (NE),43,6452,6452
+Enges,222,6453,6453
+Hauterive (NE),0,6454,6454
+Le Landeron,455,6455,6455
+Lignières,999,6456,6456
+Neuchâtel,182,6458,6458
+Saint-Blaise,174,6459,6459
+La Tène,50,6461,6461
+Valangin,360,6485,6485
+Val-de-Ruz,6381,6487,6487
+La Côte-aux-Fées,1129,6504,6504
+Les Verrières,2277,6511,6511
+Val-de-Travers,6684,6512,6512
+Aire-la-Ville,30,6601,6601
+Anières,56,6602,6602
+Avully,191,6603,6603
+Avusy,115,6604,6604
+Bardonnex,0,6605,6605
+Bellevue,9,6606,6606
+Bernex,178,6607,6607
+Carouge (GE),0,6608,6608
+Cartigny,0,6609,6609
+Céligny,293,6610,6610
+Chancy,0,6611,6611
+Chêne-Bougeries,0,6612,6612
+Chêne-Bourg,0,6613,6613
+Choulex,115,6614,6614
+Collex-Bossy,104,6615,6615
+Collonge-Bellerive,0,6616,6616
+Cologny,0,6617,6617
+Confignon,0,6618,6618
+Corsier (GE),0,6619,6619
+Dardagny,0,6620,6620
+Genève,0,6621,6621
+Genthod,154,6622,6622
+Le Grand-Saconnex,12,6623,6623
+Gy,20,6624,6624
+Hermance,0,6625,6625
+Jussy,50,6626,6626
+Laconnex,15,6627,6627
+Lancy,1,6628,6628
+Meinier,425,6629,6629
+Meyrin,78,6630,6630
+Onex,0,6631,6631
+Perly-Certoux,5,6632,6632
+Plan-les-Ouates,4,6633,6633
+Pregny-Chambésy,0,6634,6634
+Presinge,358,6635,6635
+Puplinge,64,6636,6636
+Russin,0,6637,6637
+Satigny,214,6638,6638
+Soral,0,6639,6639
+Thônex,0,6640,6640
+Troinex,0,6641,6641
+Vandoeuvres,31,6642,6642
+Vernier,0,6643,6643
+Versoix,10,6644,6644
+Veyrier,28,6645,6645
+Boécourt,740,6702,6702
+Bourrignon,1272,6703,6703
+Châtillon (JU),547,6704,6704
+Corban,678,6705,6705
+Courchapoix,691,6706,6706
+Courrendlin,641,6708,6708
+Courroux,1202,6709,6709
+Courtételle,637,6710,6710
+Delémont,969,6711,6711
+Develier,1121,6712,6712
+Ederswiler,308,6713,6713
+Mervelier,447,6715,6715
+Mettembert,170,6716,6716
+Movelier,429,6718,6718
+Pleigne,1287,6719,6719
+Rebeuvelier,554,6720,6720
+Rossemaison,486,6721,6721
+Saulcy,520,6722,6722
+Soyhières,229,6724,6724
+Vellerat,27,6728,6728
+Haute-Sorne,2892,6729,6729
+Val Terbi,2481,6730,6730
+Le Bémont (JU),1452,6741,6741
+Les Bois,1794,6742,6742
+Les Breuleux,1094,6743,6743
+La Chaux-des-Breuleux,262,6744,6744
+Les Enfers,402,6745,6745
+Les Genevez (JU),800,6748,6748
+Lajoux (JU),1013,6750,6750
+Montfaucon,1366,6751,6751
+Muriaux,1528,6753,6753
+Le Noirmont,985,6754,6754
+Saignelégier,1729,6757,6757
+Saint-Brais,1039,6758,6758
+Soubey,863,6759,6759
+Alle,1241,6771,6771
+Beurnevésin,389,6773,6773
+Boncourt,876,6774,6774
+Bonfol,905,6775,6775
+Bure,955,6778,6778
+Coeuve,706,6781,6781
+Cornol,761,6782,6782
+Courchavon,394,6783,6783
+Courgenay,1218,6784,6784
+Courtedoux,506,6785,6785
+Damphreux,932,6787,6787
+Fahy,969,6789,6789
+Fontenais,1472,6790,6790
+Grandfontaine,982,6792,6792
+Lugnez,489,6793,6793
+Porrentruy,1027,6800,6800
+Rocourt,418,6803,6803
+Vendlincourt,1010,6806,6806
+Basse-Allaine,1931,6807,6807
+Clos du Doubs,4397,6808,6808
+Haute-Ajoie,2549,6809,6809
+La Baroche,2016,6810,6810
