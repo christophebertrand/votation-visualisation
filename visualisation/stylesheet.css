@@ -12,29 +12,52 @@ text {
   stroke: black;
 }
 
-#left_panel {
+.button {
+  width:10%;
   float:left;
+  text-align: center;
+  margin-top: 1%;
+  background-color: #c9c9c9;
+  border-radius: 20px;
+}
+
+.button h3:hover, .button h3:focus{
+    color: white;
+}
+
+#left_panel {
+  margin-left: 5%
 }
 
 #contents {
-  text-align: center
+  text-align: center;
+  width: 940px;
+  margin:auto;
 }
 
 #right_panel {
-  float:left;
+  margin-right: 5%;
 }
 
 #title {
+  font-size: 24px;
+  text-align: center;
+  padding:auto;
+  /*border: 2px solid #73AD21;
+  */
+  width:70%;
+  height: 70px;
   float:left;
-  margin:auto;
+  margin-top: 5px;
 }
 
 .results {
   width:300px;
-  height : 50px;
+  height : 40px;
   color:black;
-  border: 2px solid #73AD21;
-  text-align: center;
+  /*border: 2px solid #73AD21;
+  */
+    text-align: center;
   vertical-align: middle;
   font-size:15px;
 }
