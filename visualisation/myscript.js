@@ -70,6 +70,10 @@ function createSlider(){
   //create the tempplate with the titles
   createTemplateParameters(categories)
   // in the map population get only id, data
+
+
+
+
   var foreigner = createMapData(population,'percentage_swiss', inverse = true, integer=false, percentage=true)
   dataList.push(foreigner)
   var title = 'Number of foreigner (%)'
@@ -79,6 +83,24 @@ function createSlider(){
   dataList.push(percentage_18)
   title = 'Number of young (<18years old in %)'
   setSlider('yougth', percentage_18, categories[0], title)
+
+  var percentage_40 = createMapData(population,'percentage_40', inverse = false, integer=false, percentage=true)
+  dataList.push(percentage_40)
+  title = 'Number of people under 40 (in %)'
+  setSlider('yougMen', percentage_40, categories[0], title)
+
+  var percentage_65 = createMapData(population,'percentage_65', inverse = false, integer=false, percentage=true)
+  dataList.push(percentage_65)
+  title = 'Number of under 65 (in %)'
+  setSlider('men', percentage_65, categories[0], title)
+
+  var percentage_100 = createMapData(population,'percentage_100', inverse = false, integer=false, percentage=true)
+  dataList.push(percentage_100)
+  title = 'Number of elderly  (< 65years old in %)'
+  setSlider('erlderly', percentage_18, categories[0], title)
+
+
+
 
 }
 
@@ -159,18 +181,34 @@ function setMunicipalities(ch, dataColor) {
         })
       .attr("d", path)
       .on('mousemove', function(d) {
-          var data = population.get(d.id)
+          console.log(d.id)
+          var municipalitiyInfo = population.get(d.id)
+          var resultVotation = resultsVotation.get(d.id)
           var mouse = d3.mouse(svg.node()).map(function(d) {
               return parseInt(d);
           });
           tooltip.classed('hidden', false)
-              .attr('style', 'left:' + (mouse[0] + 140) +
+              .attr('style', 'left:' + (mouse[0] + 240) +
                       'px; top:' + (mouse[1] - 85) + 'px')
               .html(
-                '<h4>' + data.commune + '</h4>' +
+                '<h4>' + municipalitiyInfo.commune + '</h4>' +
                 '<ul>' +
-                  '<li> Swiss Men 30: ' + data['M|S|30'] + '</li>' +
-                  '<li> Population: ' + d.id + '</li>' +
+                  '<li> id' + d.id+ '</li>' +
+                  '<li> Popuation total: ' + municipalitiyInfo['total_inhabitants']+ '</li>' +
+                  '<li> % <18 years olf: ' + (municipalitiyInfo['percentage_18'] *100).toFixed(2)+ '%</li>' +
+                  '<li> % <40 years olf: ' + (municipalitiyInfo['percentage_40']*100).toFixed(2) + '%</li>' +
+                  '<li> % <65 years olf: ' + (municipalitiyInfo['percentage_65'] *100).toFixed(2)+ '%</li>' +
+                  '<li> % <100 years olf: ' + (municipalitiyInfo['percentage_100'] *100).toFixed(2)+ '%</li>' +
+                  '<li> % foreigner: ' + ((1-municipalitiyInfo['percentage_swiss'])*100).toFixed(2) + '%</li>' +
+                  '<li> ------ Results ------</li>' +
+                  '<li> Yes : ' + ((resultVotation['percentage_yes'])*100).toFixed(2) + '%</li>' +
+                  '<li> Particiaption : ' + ((1-resultVotation['percentage_swiss'])*100).toFixed(2) + '%</li>' +
+
+
+
+
+
+
                 '</ul>'
 
               );
@@ -199,9 +237,12 @@ function setCantons(ch) {
     .selectAll("path")
       .data(topojson.feature(ch, ch.objects.cantons).features)
     .enter().append("path")
+      .attr("fill", none)
+    /*
       .attr("fill", function(d) {
           return getColor(d, dataCantonMap)
         })
+        *7
       .attr("d", path)
       .on("click", clicked)
 
@@ -307,7 +348,7 @@ function computeResultVotation(municipalities) {
   var resultDiv = document.getElementById('citizens')
   result = yes/total * 100
   resultDiv.innerHTML=""
-  resultDiv.innerHTML= 'Result of the citizens:' + result + ' %'
+  resultDiv.innerHTML= 'Result of the citizens: ' + (result).toFixed(2) + ' %'
 
 
 }

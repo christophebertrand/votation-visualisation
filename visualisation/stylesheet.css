@@ -34,18 +34,19 @@ text {
   height : 50px;
   color:black;
   border: 2px solid #73AD21;
+  text-align: center;
+  vertical-align: middle;
+  font-size:15px;
 }
 
 #citizens {
   float:left;
   margin-left: 10%;
-  padding : 
 }
 
 #cantons {
   float:right;
   margin-right: 10%;
-  padding: auto;
 }
 
 
