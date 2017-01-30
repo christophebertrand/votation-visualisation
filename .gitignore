@@ -1,6 +1,10 @@
 # DS_Store
 .DS_Store
 
+#Data to big to push on github
+data/data_to_be_processed/population.csv
+data/data_to_be_processed/population_cleaned.csv
+data/data_to_be_processed/votation_results.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
