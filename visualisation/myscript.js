@@ -271,22 +271,20 @@ function setMunicipalities(ch, dataColor) {
               .html(
                 '<h4>' + municipalitiyInfo.commune + '</h4>' +
                 '<ul>' +
-                  '<li> Popuation total: ' + municipalitiyInfo['total_inhabitants']+ '</li>' +
-                  '<li> % <18 years olf: ' + (municipalitiyInfo['percentage_18'] *100).toFixed(2)+ '%</li>' +
-                  '<li> % <40 years olf: ' + (municipalitiyInfo['percentage_40']*100).toFixed(2) + '%</li>' +
-                  '<li> % <65 years olf: ' + (municipalitiyInfo['percentage_65'] *100).toFixed(2)+ '%</li>' +
-                  '<li> % <100 years olf: ' + (municipalitiyInfo['percentage_100'] *100).toFixed(2)+ '%</li>' +
-                  '<li> % foreigner: ' + ((1-municipalitiyInfo['percentage_swiss'])*100).toFixed(2) + '%</li>' +
-                  '<li> ------ Results ------</li>' +
-                  '<li> Yes : ' + parseFloat(resultVotation['percentage_oui']).toFixed(2) + '%</li>' +
-                  '<li> Participation : ' + resultVotation['valables'] + '</li>' +
-
-
-
-
-
-
-                '</ul>'
+                  '<li>Population' +
+                    '<ul>' +
+                      '<li> Total: ' + municipalitiyInfo['total_inhabitants']+ '</li>' +
+                      '<li> % <18 years olf: ' + (municipalitiyInfo['percentage_18'] *100).toFixed(2)+ '%</li>' +
+                      '<li> % <40 years olf: ' + (municipalitiyInfo['percentage_40']*100).toFixed(2) + '%</li>' +
+                      '<li> % <65 years olf: ' + (municipalitiyInfo['percentage_65'] *100).toFixed(2)+ '%</li>' +
+                      '<li> % <100 years olf: ' + (municipalitiyInfo['percentage_100'] *100).toFixed(2)+ '%</li>' +
+                      '<li> % Foreigner: ' + ((1-municipalitiyInfo['percentage_swiss'])*100).toFixed(2) + '%</li>' +
+                    '</ul> </li>' +
+                    '<li>Results' +
+                      '<ul>' +
+                        '<li> Yes : ' + parseFloat(resultVotation['percentage_oui']).toFixed(2) + '%</li>' +
+                        '<li> Participation : ' + resultVotation['valables'] + '</li>' +
+                      '</ul> </li>' 
 
               );
       })
