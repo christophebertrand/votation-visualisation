@@ -1,6 +1,6 @@
 /* Set the width of the side navigation to 250px */
 function openNavRight() {
-    document.getElementById("sideNavRight").style.width = "350px";
+    document.getElementById("sideNavRight").style.width = "300px";
     document.getElementById(('button-right')).style.visibility = 'hidden';
 
 }
@@ -100,7 +100,9 @@ loadInfoVotation()
 
 function createTemplateParameters(categories){
   var outerDiv = document.getElementById('panel_master_right')
+  outerDiv.innerHTML = ""
   for(var c in categories) {
+
 
     category = categories[c]
 
