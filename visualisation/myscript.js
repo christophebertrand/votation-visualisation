@@ -82,7 +82,7 @@ function displayDiv(error, ch) {
   if(error) throw error;
   topo = ch
   //Update title -> replace by the votationDiv
-  document.getElementById('title').innerHTML = votationInfo.votation + ' ('+ votationInfo.date+', '+ votationInfo.percentage_oui + ' %)'
+  document.getElementById('title').innerHTML = votationInfo.votation + ' ('+ votationInfo.date+')'
 
 
   createSlider()
@@ -452,16 +452,29 @@ function computeMajorityCanton(municipalities) {
     }
   })
 
-  var counter_canton= 0
+  var counter_canton= 0.0
+  var number_of_canton = 0.0
+  var half_canton = [6,7,12, 13,14,16]
   yes_by_canton.forEach(function(id_canton, yes) {
     if(parseFloat(yes)/parseFloat(valables_by_canton.get(id_canton))  >0.5){
-      counter_canton ++
+      if(half_canton.includes(parseInt(id_canton))) {
+        counter_canton += 0.5
+      }else {
+        counter_canton ++
+      }
+    }
+    if(half_canton.includes(parseInt(id_canton))) {
+      number_of_canton += 0.5
+    } else {
+      number_of_canton ++
     }
   })
 
 
   var resultDiv = document.getElementById('cantons')
-  resultDiv.innerHTML= 'Accepted in ' + counter_canton + ' / ' + yes_by_canton.size() +' cantons'
+
+
+  resultDiv.innerHTML= 'Accepted in ' + counter_canton + ' / ' + number_of_canton +' cantons'
   if(counter_canton > yes_by_canton.size()/2) {
     resultDiv.style.backgroundColor = '#347233'
 
