@@ -47,6 +47,8 @@ var politique = d3.map();
 var languages = d3.map();
 var cows = d3.map();
 var mapping_canton = d3.map();
+var population_density = d3.map()
+var area_commune = d3.map()
 
 var min = 0
 var max = 50
@@ -70,6 +72,9 @@ function loadData(year, idVota, info) {
     .defer(d3.csv, '../data/municipalities/'+ year + '/cleaned_language.csv', function(d) { languages.set(parseInt(d.id), d); })
     .defer(d3.csv, '../data/municipalities/'+ year + '/data_cows.csv', function(d) { cows.set(parseInt(d.id), d); })
     .defer(d3.csv, '../data/municipalities/'+ year + '/commune_canton_map.csv', function(d) { mapping_canton.set(parseInt(d.commune_id), d); })
+    .defer(d3.csv, '../data/municipalities/'+ year + '/population_density.csv', function(d) { population_density.set(parseInt(d.id), d); })
+    .defer(d3.csv, '../data/municipalities/'+ year + '/area_data.csv', function(d) { area_commune.set(parseInt(d.id), d); })
+
     .await(displayDiv);
 }
 
@@ -77,7 +82,7 @@ function displayDiv(error, ch) {
   if(error) throw error;
   topo = ch
   //Update title -> replace by the votationDiv
-  document.getElementById('title').innerHTML = votationInfo.votation + ' ('+ votationInfo.date+')'
+  document.getElementById('title').innerHTML = votationInfo.votation + ' ('+ votationInfo.date+', '+ votationInfo.percentage_oui + ' %)'
 
 
   createSlider()
@@ -91,13 +96,6 @@ function createSlider(){
   //create the tempplate with the titles
   createTemplateParameters(categories)
   // in the map population get only id, data
-
-
-
-  var yes = createMapData(resultsVotation,'percentage_oui', inverse = false, integer=true, percentage=true)
-  dataList.push(yes)
-  var title = 'Yes (%)'
-  setSlider('test', yes, categories[0], title)
 
 
   var foreigner = createMapData(population,'percentage_swiss', inverse = true, integer=false, percentage=false)
@@ -133,6 +131,23 @@ function createSlider(){
   dataList.push(cows_by_inhabitant)
   title = 'Number of cows by inhabitant'
   setSlider('cow_ratio', cows_by_inhabitant, categories[3], title)
+
+  //===================
+  // population_density by ihanibtant
+  //===================
+  var pop_density = createMapData(population_density,'inhabitant per km^2', inverse = false, integer=false, percentage=true)
+  dataList.push(pop_density)
+  title = 'Inhabitant per km^2'
+  setSlider('density', pop_density, categories[0], title)
+
+  //===================
+  // Area of municipalities
+  //===================
+  var area = createMapData(area_commune,'area_km^2', inverse = false, integer=false, percentage=true)
+  dataList.push(area)
+  title = 'Area (km^2)'
+  setSlider('area', area, categories[3], title)
+
 
 
   //=====================
@@ -265,7 +280,7 @@ function setMunicipalities(ch, dataColor) {
                   '<li> % foreigner: ' + ((1-municipalitiyInfo['percentage_swiss'])*100).toFixed(2) + '%</li>' +
                   '<li> ------ Results ------</li>' +
                   '<li> Yes : ' + parseFloat(resultVotation['percentage_oui']).toFixed(2) + '%</li>' +
-                  '<li> Particiaption : ' + resultVotation['valables'] + '%</li>' +
+                  '<li> Participation : ' + resultVotation['valables'] + '</li>' +
 
 
 
@@ -350,13 +365,15 @@ function setSlider(id, data, category, title) {
   //var slider = document.getElementById(id);
   var max = d3.max(data.values())
   var min = d3.min(data.values())
+  var coef = 0.01
   noUiSlider.create(sliderDiv, {
-  	start: [min, max],
+
+  	start: [min- coef*min, max+coef*max],
     tooltips: [ true, true ],
     connect:true,
   	range: {
-  		'min': [min ],
-  		'max': [ max ]
+  		'min': [min - coef*min],
+  		'max': [ max +coef*max]
   	}
   })
   sliderDiv.noUiSlider.on('slide', function(values, handle) {
@@ -372,9 +389,10 @@ function onSlide(values, handle) {
   var bool = true
   resultsVotation.forEach(function(k,v){
     bool = true
+
     for(var i in sliders){
       var values = sliders[i].noUiSlider.get()
-      if( dataList[i].get(k)< values[0] || dataList[i].get(k)> values[1] ) {
+      if( dataList[i].get(k)< values[0]|| dataList[i].get(k)> values[1] ) {
         bool = bool && false
       }
     }
@@ -383,7 +401,6 @@ function onSlide(values, handle) {
     }
   })
   d3.selectAll("path").attr("fill", function (d) { return getColor(d,resultsVotationFiltered) });
-  console.log('before')
 
   computeResultVotation(resultsVotationFiltered)
   computeMajorityCanton(resultsVotationFiltered)
@@ -402,14 +419,21 @@ function computeResultVotation(municipalities) {
   var resultDiv = document.getElementById('citizens')
   result = yes/total * 100
   resultDiv.innerHTML=""
-  resultDiv.innerHTML= 'YES: ' + (result).toFixed(2) + ' %    NO: '  +(100-result).toFixed(2) + ' %'
+  resultDiv.innerHTML= 'YES: ' + (result).toFixed(2) + ' %  /  NO: '  +(100-result).toFixed(2) + ' %'
+  if(result > 50){
+    resultDiv.style.backgroundColor = '#347233'
+
+  } else {
+    resultDiv.style.border = '1px solid red'
+    resultDiv.style.backgroundColor = '#991616'
+
+  }
 
 }
 
 function computeMajorityCanton(municipalities) {
   var yes_by_canton = d3.map()
   var valables_by_canton = d3.map()
-  console.log(mapping_canton)
   municipalities.forEach(function(key,value) {
     //get canton
     if(typeof mapping_canton.get(key) != 'undefined'){
@@ -431,15 +455,27 @@ function computeMajorityCanton(municipalities) {
   var counter_canton= 0
   yes_by_canton.forEach(function(id_canton, yes) {
     if(parseFloat(yes)/parseFloat(valables_by_canton.get(id_canton))  >0.5){
-
       counter_canton ++
     }
   })
 
 
-  console.log(counter_canton)
   var resultDiv = document.getElementById('cantons')
   resultDiv.innerHTML= 'Accepted in ' + counter_canton + ' / ' + yes_by_canton.size() +' cantons'
+  if(counter_canton > yes_by_canton.size()/2) {
+    resultDiv.style.backgroundColor = '#347233'
+
+  } else {
+    resultDiv.style.backgroundColor = '#991616'
+  }
+}
+
+function resetButton() {
+  for (i in sliders) {
+    sliders[i].noUiSlider.reset();
+  }
+  d3.selectAll("path").attr("fill", function (d) { return getColor(d,resultsVotation) });
+
 }
 
 

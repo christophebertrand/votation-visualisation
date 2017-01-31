@@ -100,7 +100,9 @@ loadInfoVotation()
 
 function createTemplateParameters(categories){
   var outerDiv = document.getElementById('panel_master_right')
+  outerDiv.innerHTML = ""
   for(var c in categories) {
+
 
     category = categories[c]
 
