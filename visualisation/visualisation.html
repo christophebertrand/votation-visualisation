@@ -28,10 +28,15 @@
 
 
 
-    <div id="header">
+    <div id="wrap-header">
 
-      <div id="left_panel" class='button'>
-        <h3 onclick="openNavLeft()"> Votations</h3>
+      <div class='left button'>
+        <button id='button-left' type="button" class="hamburger is-closed" data-toggle="offcanvas" onclick="openNavLeft()">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+        </button>
+
         <div id="sideNavLeft" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNavLeft()">&times;</a>
 
@@ -46,13 +51,18 @@
       </div>
 
 
-       <div id="title">
-          Visualisation of the votations in Switzerland
-       </div>
+      <div class='center'>
+        <h3 id='title'> Popular vote in Switzerland <h3>
+      </div>
 
 
-       <div id="right_panel" class='button'> <!--style="float:right; width:20%;"-->
-         <h3 onclick="openNavRight()"> Parameter</h3>
+
+       <div class='right button'> <!--style="float:right; width:20%;"-->
+         <button id='button-right' type="button" class="hamburger is-closed" data-toggle="offcanvas" onclick="openNavRight()">
+             <span class="hamb-top"></span>
+             <span class="hamb-middle"></span>
+             <span class="hamb-bottom"></span>
+         </button>
            <!-- Side bar Right-->
          <div id="sideNavRight" class="sidenav">
            <a href="javascript:void(0)" class="closebtn" onclick="closeNavRight()">&times;</a>
@@ -69,7 +79,6 @@
        </div>
 
 
-
     </div>
 
 
@@ -78,37 +87,24 @@
 
     <div id="contents"    style="float:left; width:100%;">
       <!-- Side bar left-->
+      <div id='citizens', class='results'>
 
+      </div>
 
+      <div id='cantons', class='results'>
 
-
-
-
-
-    </div>
-
-
-    <div id='citizens', class='results'>
-
-    </div>
-
-    <div id='cantons', class='results'>
+      </div>
 
     </div>
 
 
 
-
-
-
-
-
-
-
-
-    </div>
 
     <script src="myscript.js"></script>
+
+
+
+
 
 
 

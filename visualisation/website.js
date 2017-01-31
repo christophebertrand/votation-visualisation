@@ -1,20 +1,27 @@
 /* Set the width of the side navigation to 250px */
 function openNavRight() {
     document.getElementById("sideNavRight").style.width = "350px";
+    document.getElementById(('button-right')).style.visibility = 'hidden';
+
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNavRight() {
     document.getElementById("sideNavRight").style.width = "0";
+    document.getElementById(('button-right')).style.visibility = 'visible';
+
+
 }
 /* Set the width of the side navigation to 250px */
 function openNavLeft() {
     document.getElementById("sideNavLeft").style.width = "250px";
+    document.getElementById(('button-left')).style.visibility = 'hidden';
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNavLeft() {
     document.getElementById("sideNavLeft").style.width = "0";
+    document.getElementById(('button-left')).style.visibility = 'visible';
 }
 
 
@@ -22,6 +29,7 @@ var votations2013 = d3.map()
 var votations2014 = d3.map()
 var votations2015 = d3.map()
 var votations2016 = d3.map()
+
 
 
 function loadInfoVotation() {
@@ -66,8 +74,13 @@ function displayDiv(error) {
     map.forEach(function(k,v) {
       votationDiv = document.createElement('div')
       votationDiv.className = 'panel-body'
-      votationDiv.innerHTML = v.votation + ' ('+ v.date+')'
-      votationDiv.onclick = function(){ test(v.date,k, v)}
+      votationDiv.innerHTML = v.votation + ' ('+ v.date+', '+ v.percentage_oui + ' %)'
+      votationDiv.onclick = (function(){
+        document.getElementById('button-right').style.visibility='visible'
+        closeNavLeft();
+        test(v.date,k, v)
+
+      })
       votationsYearDiv.appendChild(votationDiv)
     })
 

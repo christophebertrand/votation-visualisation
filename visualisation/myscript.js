@@ -44,6 +44,9 @@ var resultsVotation = d3.map();
 var dataCantonMap = d3.map();
 var population = d3.map();
 var politique = d3.map();
+var languages = d3.map();
+var cows = d3.map();
+var mapping_canton = d3.map();
 
 var min = 0
 var max = 50
@@ -64,15 +67,18 @@ function loadData(year, idVota, info) {
     .defer(d3.csv, '../data/votations/'+ year + '/'+idVota+'.csv', function(d) { resultsVotation.set(d.id.replace(/^0+/, ''), d);})
     .defer(d3.csv, '../data/municipalities/'+ year + '/data_commune.csv', function(d) { population.set(parseInt(d.id), d); })
     .defer(d3.csv, '../data/municipalities/'+ year + '/politique_data.csv', function(d) { politique.set(parseInt(d.commune_id), d); })
+    .defer(d3.csv, '../data/municipalities/'+ year + '/cleaned_language.csv', function(d) { languages.set(parseInt(d.id), d); })
+    .defer(d3.csv, '../data/municipalities/'+ year + '/data_cows.csv', function(d) { cows.set(parseInt(d.id), d); })
+    .defer(d3.csv, '../data/municipalities/'+ year + '/commune_canton_map.csv', function(d) { mapping_canton.set(parseInt(d.commune_id), d); })
     .await(displayDiv);
 }
 
 function displayDiv(error, ch) {
   if(error) throw error;
   topo = ch
-
   //Update title -> replace by the votationDiv
   document.getElementById('title').innerHTML = votationInfo.votation + ' ('+ votationInfo.date+')'
+
 
   createSlider()
   displayVisualisation(ch, resultsVotation)
@@ -80,8 +86,8 @@ function displayDiv(error, ch) {
 }
 
 function createSlider(){
-  document.getElementById('panel_master_right').innerHTML = votationInfo.votation
-  var categories = ['Population', 'Politique', 'Others']
+  //document.getElementById('panel_master_right').innerHTML = votationInfo.votation
+  var categories = ['Population', 'Politique', 'Languages','Others']
   //create the tempplate with the titles
   createTemplateParameters(categories)
   // in the map population get only id, data
@@ -120,19 +126,35 @@ function createSlider(){
   setSlider('erlderly', percentage_18, categories[0], title)
 
 
+  //===================
+  // Cows by ihanibtant
+  //===================
+  var cows_by_inhabitant = createMapData(cows,'cow_ratio', inverse = false, integer=false, percentage=true)
+  dataList.push(cows_by_inhabitant)
+  title = 'Number of cows by inhabitant'
+  setSlider('cow_ratio', cows_by_inhabitant, categories[3], title)
+
+
   //=====================
-  // POlitique parameters
+  // Politique parameters
   // ====================
   for(var key in politique.get(1)){
     if(key != 'commune_id') {
-      var table= createMapData(politique,key, inverse = false, integer=true, percentage=true)
+      var table= createMapData(politique,key, inverse = false, integer=false, percentage=true)
       dataList.push(table)
       setSlider(key, table, categories[1], key)
     }
   }
-  /*
-
-*/
+  //=====================
+  // Languages parameters
+  // ====================
+  for(var key in languages.get(1)){
+    if(key != 'id' && key !='Main Language') {
+      var table= createMapData(languages,key, inverse = false, integer=false, percentage=true)
+      dataList.push(table)
+      setSlider(key, table, categories[2], key)
+    }
+  }
 
 
 
@@ -179,6 +201,7 @@ function displayVisualisation(ch, dataColor) {
   g.selectAll("text").remove()
   setMunicipalities(ch, dataColor)
   computeResultVotation(resultsVotation)
+  computeMajorityCanton(resultsVotation)
   //setCantons(ch)
   setTextInCanton(cantons)
   setLake(ch)
@@ -207,6 +230,11 @@ function setLake(ch) {
 
 function setMunicipalities(ch, dataColor) {
   //municipalities
+  g.append("path")
+    .datum(topojson.feature(ch, ch.objects.country))
+    .attr("class", "country")
+    .attr("d", path);
+
   g.append("g")
       .attr("class", "municipality")
     .selectAll("path")
@@ -263,6 +291,9 @@ function setMunicipalities(ch, dataColor) {
     .datum(topojson.mesh(ch, ch.objects.cantons, function(a, b) { return a !== b; }))
     .attr("class", "feature canton-boundaries")
     .attr("d", path)
+
+
+
 }
 
 function setCantons(ch) {
@@ -273,21 +304,7 @@ function setCantons(ch) {
       .data(topojson.feature(ch, ch.objects.cantons).features)
     .enter().append("path")
       .attr("fill", none)
-    /*
-      .attr("fill", function(d) {
-          return getColor(d, dataCantonMap)
-        })
-        *7
-      .attr("d", path)
-      .on("click", clicked)
 
-
-/*
-  g.append("path")
-    .datum(topojson.mesh(ch, ch.objects.cantons, function(a, b) { return a !== b; }))
-    .attr("class", "feature canton-boundaries")
-    .attr("d", path)
-*/
 }
 
 function getColor(d, map) {
@@ -366,7 +383,10 @@ function onSlide(values, handle) {
     }
   })
   d3.selectAll("path").attr("fill", function (d) { return getColor(d,resultsVotationFiltered) });
+  console.log('before')
+
   computeResultVotation(resultsVotationFiltered)
+  computeMajorityCanton(resultsVotationFiltered)
 }
 
 function computeResultVotation(municipalities) {
@@ -382,9 +402,44 @@ function computeResultVotation(municipalities) {
   var resultDiv = document.getElementById('citizens')
   result = yes/total * 100
   resultDiv.innerHTML=""
-  resultDiv.innerHTML= 'YES: ' + (result).toFixed(2) + ' %    NO :'  +(100-result).toFixed(2) + ' %'
+  resultDiv.innerHTML= 'YES: ' + (result).toFixed(2) + ' %    NO: '  +(100-result).toFixed(2) + ' %'
+
+}
+
+function computeMajorityCanton(municipalities) {
+  var yes_by_canton = d3.map()
+  var valables_by_canton = d3.map()
+  console.log(mapping_canton)
+  municipalities.forEach(function(key,value) {
+    //get canton
+    if(typeof mapping_canton.get(key) != 'undefined'){
+      var canton_id = mapping_canton.get(key).canton_id
+      //update yes_by_canton and result
+      yes = yes_by_canton.get(canton_id)
+      if(typeof yes == 'undefined'){
+        yes_by_canton.set(canton_id,parseInt(value.oui))
+        valables_by_canton.set(canton_id, parseInt(value.valables))
+
+      } else {
+        yes_by_canton.set(canton_id,yes + parseInt(value.oui))
+        valables_by_canton.set(canton_id, valables_by_canton.get(canton_id)+parseInt(value.valables))
+      }
+
+    }
+  })
+
+  var counter_canton= 0
+  yes_by_canton.forEach(function(id_canton, yes) {
+    if(parseFloat(yes)/parseFloat(valables_by_canton.get(id_canton))  >0.5){
+
+      counter_canton ++
+    }
+  })
 
 
+  console.log(counter_canton)
+  var resultDiv = document.getElementById('cantons')
+  resultDiv.innerHTML= 'Accepted in ' + counter_canton + ' / ' + yes_by_canton.size() +' cantons'
 }
 
 
