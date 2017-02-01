@@ -1,6 +1,6 @@
 # What we have done
 
-#Preprocessing
+##Preprocessing
 We found all the data on [Office Federal des Statistique](https://www.pxweb.bfs.admin.ch/Default.aspx?px_language=fr). It is possible to find a lots of data such as information Population or politique.
 
 
@@ -8,22 +8,11 @@ The hardest part was the 'fusions' (merging) of municipalities. Indeed fusion ha
 
 The OFS has a lot of inconsistency in their data. As explained before the fusion was problematic but the worst was the fact that the fusion was not always applied of note always a the same time. Sometimes it was only with the fusion before 01.01.2016 sometimes it was before 10.04.2016 (apparently it's possible to merge in the middle of a year) and sometime the data was not updated.
 
-The second inconsistency was the type of data. A columns of number of 'yes' for a vote could contains integer, float (with unnecessary 0 such as 10.000000) or also string. Pandas was not always able to convert everything easily. 
+The second inconsistency was the type of data. A columns of number of 'yes' for a vote could contains integer, float (with unnecessary 0 such as 10.000000) or also string. Pandas was not always able to convert everything easily.
 
 
+## Visualisation
 
+The visualisation has been made using D3. It is composed of one topojson and many slider that act like a filter on the data. When a slider is moved, all commune that do not respect the criteria of all sliders (not only the slider moved, it allow to use many criteria) are dropped (color in gray) and the result of the vote is recomputed using only the municipalities selected (as if the other one never existed).
 
-
-
-
-
-
-# Run the server
-
-1. Install node js
-2. Install npm
-3. Run the server
-```
-node_modules/http-server/bin/http-server -p 8008
-```
-4. Follow the generated link
+In Switzerland, to be accepted, a vote must have a double majority: absolute majority among the citizen, but also among the municipalities (the vote must have been accepted in half + 1 cantons). There are 23 canton and not 26, since  Basel-Stadt and Basel-Landschaft, Appenzell Ausserrhoden and Appenzell Innerrhoden, Obwalden and Nidwalden are half cantons. In our simulation it may append that after moving the sliders, all the municipalities of a canton are dropped, in that case, the canton is also dropped for the double majority

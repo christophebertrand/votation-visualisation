@@ -39,3 +39,41 @@ Assuming the deadline is at the end of january:
 - Then we implement it. We hope that we can start with this point before the middle of December, since this point probably takes the most time.
 - If we have time, it would be interesting to find some especially important features.
 - And then we go skiing :)
+
+## Run the visualisation
+
+1. Install node js
+2. Install npm
+3. Run the server
+```
+node_modules/http-server/bin/http-server -p 8008
+```
+4. Follow the generated link
+5. Go to 'visualisation/visualisation.html'
+
+## Visualisation
+The home page is like that
+![home_page](img/home_page.png)
+
+Then on the left side we can find all the popular vote from 2013 til 2016
+
+![votations](img/list_votations.png)
+
+When we select a vote, we can observe the result in each municipalities (green -> yes, red -> no). And on the right side of the website we can find a list of parameters of the municipalities
+
+![parameters](img/parameters.png)
+
+Each menu contains a list of sliders that allow the user to select a group of municipalities that respect all the criterias of the sliders. Then the result is computed like if only those municipalities existed during the vote (some canton may not be represented any more). The be accpeted, the vote must have the double majority: absolute majority among citizen and absolute majority among canton (both rectangle at the bottom must be green)
+
+We can see that sliders can change the outcome of a vote. Here for example we selected only municipalities with at most 27% of foreigners in the municipalities
+
+![foreigners](img/foreigners.png)
+
+Or with the number of cows by inhabitants we can see that the outcome also change (at least 0.82 cows by inhabitants)
+
+![cows](img/cows.png)
+
+
+
+## Thanks
+For the visualisation we use the topojson found on the github repo of [Interactivethings]https://github.com/interactivethings/swiss-maps
