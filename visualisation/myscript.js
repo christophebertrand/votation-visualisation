@@ -284,7 +284,7 @@ function setMunicipalities(ch, dataColor) {
                       '<ul>' +
                         '<li> Yes : ' + parseFloat(resultVotation['percentage_oui']).toFixed(2) + '%</li>' +
                         '<li> Participation : ' + resultVotation['valables'] + '</li>' +
-                      '</ul> </li>' 
+                      '</ul> </li>'
 
               );
       })

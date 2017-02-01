@@ -27,7 +27,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -99,3 +98,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+#Big file
+data/data_to_be_processed/raw_data/pxc-f-1703030000_101.csv
