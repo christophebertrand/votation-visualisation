@@ -63,12 +63,12 @@ The hardest part was the 'fusions' (merging) of municipalities. Indeed fusion ha
 
 Each time a fusion happened, the OFS applies the fusion for all data collected during the previous years. For example 2 communes A with 1000 inhabitants and B with 1000 inhabitants in 2015 and that merged into C in 2016, will never again appear in 2015 or before as A and B but as C as if they never existed. Since we were not able to find a topojson of 2016, we used one of 2015 that still contains the municipalities A and B. So our task was to find the fusion of each year and create a table that were able to decompose the fusions and then we could find the for each municipalities for each year.
 
-The OFS has a lot of inconsistency in their data. As explained before the fusion was problematic but the worst was the fact that the fusion was not always applied or not always a the same time. Sometimes it was only with the fusion before 01.01.2016 sometimes it was before 10.04.2016 (apparently it's possible to merge in the middle of a year) and sometime the data was not updated.
+The OFS has a lot of inconsistency in their data. As explained before the fusion was problematic but the worst was the fact that the fusion was not always applied or not always a the same time. Sometimes it was only with the fusion before 01.01.2016 sometimes it was before 10.04.2016 (apparently it's possible to merge in the middle of a year) and sometimes the data was not updated (and we had to 'roll-forwards' to get the correct municipalities, for example with the language data).
 
-The second inconsistency was the type of data. A columns of number of 'yes' for a vote could contains integer, float (with unnecessary precission such as 10.000000) or as string. Pandas was not always able to convert everything easily.
+The second inconsistency was the type of data. A columns of number of 'yes' for a vote could contains integers, floats (with unnecessary precision such as 10.000000) or strings. Pandas was not able to convert everything correctly.
 
 
-There were a lot of other smaller inconsistencies that took a long time to find. For example, in the data for the results of the votes, there was one NaN value. This lead to strange behaviour down the processing pipeline and it took a long time to find that it was a problem with the raw data.
+There were a lot of other smaller inconsistencies that took a lot of effort to find. For example, in the data for the results of the votes, there was one NaN value. This lead to strange behaviour down the processing pipeline and it took a long time to find that it was a problem with the raw data.
 
 ## Visualisation
 
